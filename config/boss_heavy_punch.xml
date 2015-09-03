@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Animations>
+  <Filename path="player_light_punch.png" />
+  <Animation name="Boss_Heavy_Punch" maxframes="3" islooping="false">
+    <Frame damage="0" duration="0.30" trigger="-1">
+      <AnchorPoint x="61" y="115" />
+      <SourceRect left="62" top="69" right="155" bottom="187" />
+      <CollisionRect left="-30" top="-39" right="22" bottom="-3" />
+    </Frame>
+    <Frame damage="4" duration="0.30" trigger="-1">
+      <AnchorPoint x="61" y="115" />
+      <SourceRect left="181" top="68" right="276" bottom="185" />
+      <CollisionRect left="-30" top="-38" right="22" bottom="-2" />
+      <ActiveRect left="-38" top="-25" right="-13" bottom="-10" />
+    </Frame>
+    <Frame damage="4" duration="0.40" trigger="-1">
+      <AnchorPoint x="61" y="115" />
+      <SourceRect left="321" top="68" right="413" bottom="185" />
+      <CollisionRect left="-30" top="-38" right="22" bottom="-2" />
+      <ActiveRect left="-61" top="-28" right="-21" bottom="-10" />
+    </Frame>
+  </Animation>
+</Animations>

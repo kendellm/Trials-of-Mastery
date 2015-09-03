@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Animations>
+  <Filename path="fire-boss_flinch_animation.png" />
+  <Animation name="FireBoss_Flinch_Animation" maxframes="1" islooping="false">
+    <Frame damage="0" duration="0.500" trigger="-1">
+      <AnchorPoint x="42" y="100" />
+      <SourceRect left="13" top="13" right="94" bottom="115" />
+      <CollisionRect left="-34" top="-22" right="34" bottom="0" />
+    </Frame>
+  </Animation>
+</Animations>

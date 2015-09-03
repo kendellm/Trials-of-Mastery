@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Animations>
+  <Filename path="Boss1_Death_Animation.png" />
+  <Animation name="Boss1_Death_Animation" maxframes="5" islooping="false">
+    <Frame damage="0" duration="0.25" trigger="-1">
+      <AnchorPoint x="30" y="106" />
+      <SourceRect left="32" top="31" right="95" bottom="139" />
+      <CollisionRect left="0" top="0" right="0" bottom="0" />
+    </Frame>
+    <Frame damage="0" duration="0.250" trigger="-1">
+      <AnchorPoint x="35" y="84" />
+      <SourceRect left="126" top="31" right="197" bottom="117" />
+      <CollisionRect left="0" top="0" right="0" bottom="0" />
+    </Frame>
+    <Frame damage="0" duration="0.150" trigger="-1">
+      <AnchorPoint x="48" y="82" />
+      <SourceRect left="31" top="169" right="130" bottom="253" />
+      <CollisionRect left="0" top="0" right="0" bottom="0" />
+    </Frame>
+    <Frame damage="0" duration="0.150" trigger="-1">
+      <AnchorPoint x="52" y="59" />
+      <SourceRect left="32" top="282" right="151" bottom="345" />
+      <CollisionRect left="0" top="0" right="0" bottom="0" />
+    </Frame>
+    <Frame damage="0" duration="0.225" trigger="Self Destruct">
+      <AnchorPoint x="70" y="29" />
+      <SourceRect left="29" top="373" right="173" bottom="409" />
+      <CollisionRect left="0" top="0" right="0" bottom="0" />
+    </Frame>
+  </Animation>
+</Animations>

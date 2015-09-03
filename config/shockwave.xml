@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Animations>
+  <Filename path="shockwave.png" />
+  <Animation name="shockwave" maxframes="4" islooping="false">
+    <Frame damage="5" duration="0.15" trigger="-1">
+      <AnchorPoint x="95" y="32" />
+      <SourceRect left="195" top="2" right="322" bottom="64" />
+      <CollisionRect left="-290" top="-34" right="-290" bottom="-34" />
+      <ActiveRect left="-94" top="-32" right="31" bottom="30" />
+    </Frame>
+    <Frame damage="5" duration="0.20" trigger="-1">
+      <AnchorPoint x="155" y="32" />
+      <SourceRect left="134" top="1" right="322" bottom="63" />
+      <CollisionRect left="-289" top="-33" right="-289" bottom="-33" />
+      <ActiveRect left="-157" top="-32" right="32" bottom="31" />
+    </Frame>
+    <Frame damage="5" duration="0.20" trigger="-1">
+      <AnchorPoint x="220" y="30" />
+      <SourceRect left="68" top="1" right="322" bottom="64" />
+      <CollisionRect left="-288" top="-31" right="-288" bottom="-31" />
+      <ActiveRect left="-220" top="-30" right="33" bottom="33" />
+    </Frame>
+    <Frame damage="5" duration="0.30" trigger="-1">
+      <AnchorPoint x="285" y="32" />
+      <SourceRect left="3" top="1" right="322" bottom="66" />
+      <CollisionRect left="-288" top="-33" right="-288" bottom="-33" />
+      <ActiveRect left="-285" top="-32" right="35" bottom="33" />
+    </Frame>
+  </Animation>
+</Animations>

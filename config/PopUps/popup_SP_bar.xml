@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Animations>
+  <Filename path="SP_node.png" />
+  <Animation name="popup_SP_bar" maxframes="5" islooping="false">
+    <Frame damage="0" duration="0.350" trigger="-1">
+      <AnchorPoint x="14" y="13" />
+      <SourceRect left="287" top="0" right="315" bottom="28" />
+      <CollisionRect left="-301" top="-13" right="-301" bottom="-13" />
+    </Frame>
+    <Frame damage="0" duration="0.350" trigger="-1">
+      <AnchorPoint x="41" y="12" />
+      <SourceRect left="260" top="1" right="315" bottom="24" />
+      <CollisionRect left="-301" top="-13" right="-301" bottom="-13" />
+    </Frame>
+    <Frame damage="0" duration="0.350" trigger="-1">
+      <AnchorPoint x="68" y="11" />
+      <SourceRect left="232" top="2" right="314" bottom="23" />
+      <CollisionRect left="-300" top="-13" right="-300" bottom="-13" />
+    </Frame>
+    <Frame damage="0" duration="0.350" trigger="-1">
+      <AnchorPoint x="98" y="12" />
+      <SourceRect left="203" top="1" right="315" bottom="24" />
+      <CollisionRect left="-301" top="-13" right="-301" bottom="-13" />
+    </Frame>
+    <Frame damage="0" duration="0.4" trigger="-1">
+      <AnchorPoint x="127" y="12" />
+      <SourceRect left="174" top="1" right="315" bottom="24" />
+      <CollisionRect left="-301" top="-13" right="-301" bottom="-13" />
+    </Frame>
+  </Animation>
+</Animations>

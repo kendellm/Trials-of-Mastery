@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Animations>
+  <Filename path="Pit_Fall.png" />
+  <Animation name="Pit_Fall" maxframes="2" islooping="true">
+    <Frame damage="10" duration="0.1000" trigger="-1">
+      <AnchorPoint x="0" y="0" />
+      <SourceRect left="34" top="32" right="98" bottom="96" />
+      <CollisionRect left="0" top="0" right="0" bottom="0" />
+      <ActiveRect left="0" top="0" right="64" bottom="64" />
+    </Frame>
+    <Frame damage="10" duration="0.1000" trigger="-1">
+      <AnchorPoint x="0" y="0" />
+      <SourceRect left="34" top="32" right="98" bottom="96" />
+      <CollisionRect left="0" top="0" right="0" bottom="0" />
+      <ActiveRect left="0" top="0" right="64" bottom="64" />
+    </Frame>
+  </Animation>
+</Animations>

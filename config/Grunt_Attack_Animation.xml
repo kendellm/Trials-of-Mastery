@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Animations>
+  <Filename path="Grunt_Attack_Animation.png" />
+  <Animation name="Grunt_Attack_Animation" maxframes="7" islooping="false">
+    <Frame damage="3" duration="0.25" trigger="-1">
+      <AnchorPoint x="31" y="118" />
+      <SourceRect left="32" top="31" right="101" bottom="152" />
+      <CollisionRect left="-31" top="-14" right="38" bottom="3" />
+    </Frame>
+    <Frame damage="3" duration="0.25" trigger="-1">
+      <AnchorPoint x="36" y="105" />
+      <SourceRect left="132" top="32" right="214" bottom="140" />
+      <CollisionRect left="-36" top="-17" right="46" bottom="3" />
+    </Frame>
+    <Frame damage="3" duration="0.25" trigger="-1">
+      <AnchorPoint x="38" y="116" />
+      <SourceRect left="240" top="31" right="326" bottom="150" />
+      <CollisionRect left="-38" top="-20" right="48" bottom="3" />
+    </Frame>
+    <Frame damage="3" duration="0.25" trigger="-1">
+      <AnchorPoint x="34" y="108" />
+      <SourceRect left="354" top="33" right="437" bottom="144" />
+      <CollisionRect left="-34" top="-16" right="49" bottom="3" />
+    </Frame>
+    <Frame damage="3" duration="0.25" trigger="-1">
+      <AnchorPoint x="53" y="110" />
+      <SourceRect left="32" top="184" right="143" bottom="297" />
+      <CollisionRect left="-20" top="-25" right="58" bottom="3" />
+      <ActiveRect left="-57" top="-25" right="28" bottom="3" />
+    </Frame>
+    <Frame damage="3" duration="0.25" trigger="-1">
+      <AnchorPoint x="52" y="111" />
+      <SourceRect left="173" top="184" right="291" bottom="299" />
+      <CollisionRect left="-13" top="-19" right="66" bottom="4" />
+      <ActiveRect left="-53" top="-19" right="47" bottom="4" />
+    </Frame>
+    <Frame damage="3" duration="0.25" trigger="-1">
+      <AnchorPoint x="33" y="108" />
+      <SourceRect left="319" top="182" right="402" bottom="293" />
+      <CollisionRect left="-33" top="-18" right="50" bottom="3" />
+    </Frame>
+  </Animation>
+</Animations>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Animations>
+  <Filename path="subzero2.png" />
+  <Animation name="subzero2" maxframes="2" islooping="false">
+    <Frame damage="0" duration="1" trigger="-1">
+      <AnchorPoint x="93" y="110" />
+      <SourceRect left="1" top="1" right="188" bottom="188" />
+      <CollisionRect left="-94" top="-111" right="-94" bottom="-111" />
+      <ActiveRect left="-93" top="-110" right="95" bottom="77" />
+    </Frame>
+    <Frame damage="0" duration="1" trigger="-1">
+      <AnchorPoint x="93" y="110" />
+      <SourceRect left="2" top="1" right="189" bottom="188" />
+      <CollisionRect left="-95" top="-111" right="-95" bottom="-111" />
+      <ActiveRect left="-94" top="-109" right="94" bottom="77" />
+    </Frame>
+  </Animation>
+</Animations>

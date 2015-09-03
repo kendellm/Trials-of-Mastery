@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Animations>
+  <Filename path="IceBoss_Spawn_IceBall.png" />
+  <Animation name="IceBoss_IceBall" maxframes="8" islooping="false">
+    <Frame damage="0" duration="0.1" trigger="-1">
+      <AnchorPoint x="34" y="111" />
+      <SourceRect left="8" top="9" right="63" bottom="122" />
+      <CollisionRect left="-18" top="-33" right="13" bottom="-2" />
+    </Frame>
+    <Frame damage="0" duration="0.1" trigger="Spawn IceBall">
+      <AnchorPoint x="37" y="110" />
+      <SourceRect left="75" top="10" right="131" bottom="123" />
+      <CollisionRect left="-18" top="-33" right="13" bottom="-2" />
+    </Frame>
+    <Frame damage="0" duration="0.1" trigger="-1">
+      <AnchorPoint x="35" y="111" />
+      <SourceRect left="142" top="7" right="204" bottom="121" />
+      <CollisionRect left="-18" top="-33" right="13" bottom="-2" />
+    </Frame>
+    <Frame damage="0" duration="0.1" trigger="-1">
+      <AnchorPoint x="33" y="110" />
+      <SourceRect left="392" top="8" right="452" bottom="120" />
+      <CollisionRect left="-18" top="-33" right="13" bottom="-2" />
+    </Frame>
+    <Frame damage="0" duration="0.1" trigger="-1">
+      <AnchorPoint x="47" y="110" />
+      <SourceRect left="301" top="8" right="381" bottom="120" />
+      <CollisionRect left="-18" top="-33" right="13" bottom="-2" />
+    </Frame>
+    <Frame damage="0" duration="0.1" trigger="-1">
+      <AnchorPoint x="39" y="109" />
+      <SourceRect left="216" top="9" right="289" bottom="120" />
+      <CollisionRect left="-18" top="-33" right="13" bottom="-2" />
+    </Frame>
+    <Frame damage="0" duration="0.1" trigger="-1">
+      <AnchorPoint x="36" y="110" />
+      <SourceRect left="141" top="8" right="201" bottom="121" />
+      <CollisionRect left="-18" top="-33" right="13" bottom="-2" />
+    </Frame>
+    <Frame damage="0" duration="0.1" trigger="-1">
+      <AnchorPoint x="37" y="110" />
+      <SourceRect left="75" top="10" right="131" bottom="123" />
+      <CollisionRect left="-18" top="-33" right="13" bottom="-2" />
+    </Frame>
+  </Animation>
+</Animations>

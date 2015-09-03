@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Animations>
+  <Filename path="Jugg_Rush_Animation.png" />
+  <Animation name="Jugg_Rush_Animation" maxframes="6" islooping="true">
+    <Frame damage="5" duration="0.15" trigger="-1">
+      <AnchorPoint x="36" y="128" />
+      <SourceRect left="31" top="31" right="113" bottom="165" />
+      <CollisionRect left="-36" top="-20" right="46" bottom="6" />
+      <ActiveRect left="-40" top="-27" right="-10" bottom="10" />
+    </Frame>
+    <Frame damage="5" duration="0.20" trigger="-1">
+      <AnchorPoint x="41" y="131" />
+      <SourceRect left="142" top="32" right="226" bottom="169" />
+      <CollisionRect left="-41" top="-20" right="43" bottom="6" />
+      <ActiveRect left="-50" top="-25" right="-12" bottom="9" />
+    </Frame>
+    <Frame damage="5" duration="0.15" trigger="-1">
+      <AnchorPoint x="60" y="113" />
+      <SourceRect left="255" top="31" right="398" bottom="147" />
+      <CollisionRect left="-60" top="-26" right="84" bottom="3" />
+      <ActiveRect left="-67" top="-32" right="-19" bottom="6" />
+    </Frame>
+    <Frame damage="5" duration="0.15" trigger="-1">
+      <AnchorPoint x="37" y="133" />
+      <SourceRect left="29" top="199" right="108" bottom="335" />
+      <CollisionRect left="-37" top="-23" right="42" bottom="3" />
+      <ActiveRect left="-43" top="-28" right="-14" bottom="7" />
+    </Frame>
+    <Frame damage="5" duration="0.15" trigger="-1">
+      <AnchorPoint x="62" y="119" />
+      <SourceRect left="138" top="200" right="274" bottom="321" />
+      <CollisionRect left="-62" top="-22" right="74" bottom="2" />
+      <ActiveRect left="-75" top="-30" right="-32" bottom="6" />
+    </Frame>
+    <Frame damage="5" duration="0.15" trigger="-1">
+      <AnchorPoint x="49" y="116" />
+      <SourceRect left="305" top="200" right="419" bottom="319" />
+      <CollisionRect left="-49" top="-19" right="65" bottom="3" />
+      <ActiveRect left="-55" top="-26" right="-18" bottom="6" />
+    </Frame>
+  </Animation>
+</Animations>

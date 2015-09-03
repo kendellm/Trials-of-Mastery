@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Animations>
+  <Filename path="ice-boss_special_animation.png" />
+  <Animation name="IceBoss_Special_Animation" maxframes="6" islooping="false">
+    <Frame damage="0" duration="0.250" trigger="-1">
+      <AnchorPoint x="35" y="119" />
+      <SourceRect left="9" top="10" right="75" bottom="130" />
+      <CollisionRect left="-25" top="-20" right="23" bottom="-1" />
+    </Frame>
+    <Frame damage="0" duration="0.250" trigger="-1">
+      <AnchorPoint x="27" y="133" />
+      <SourceRect left="102" top="10" right="152" bottom="144" />
+      <CollisionRect left="-18" top="-20" right="20" bottom="-1" />
+    </Frame>
+    <Frame damage="7" duration="0.250" trigger="-1">
+      <AnchorPoint x="36" y="133" />
+      <SourceRect left="8" top="174" right="85" bottom="309" />
+      <CollisionRect left="-22" top="-25" right="26" bottom="0" />
+      <ActiveRect left="-34" top="-20" right="38" bottom="-2" />
+    </Frame>
+    <Frame damage="7" duration="0.250" trigger="-1">
+      <AnchorPoint x="33" y="138" />
+      <SourceRect left="113" top="174" right="191" bottom="313" />
+      <CollisionRect left="-24" top="-24" right="33" bottom="-2" />
+      <ActiveRect left="-29" top="-22" right="42" bottom="-3" />
+    </Frame>
+    <Frame damage="7" duration="0.250" trigger="-1">
+      <AnchorPoint x="38" y="105" />
+      <SourceRect left="9" top="342" right="88" bottom="448" />
+      <CollisionRect left="-25" top="-25" right="24" bottom="-2" />
+      <ActiveRect left="-36" top="-17" right="36" bottom="-2" />
+    </Frame>
+    <Frame damage="7" duration="0.250" trigger="-1">
+      <AnchorPoint x="38" y="120" />
+      <SourceRect left="111" top="341" right="194" bottom="462" />
+      <CollisionRect left="-27" top="-26" right="31" bottom="-3" />
+      <ActiveRect left="-35" top="-21" right="40" bottom="-3" />
+    </Frame>
+  </Animation>
+</Animations>

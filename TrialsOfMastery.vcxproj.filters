@@ -1,0 +1,725 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="source\AnimationSystem\Animation.cpp">
+      <Filter>Animation System</Filter>
+    </ClCompile>
+    <ClCompile Include="source\AnimationSystem\AnimationManager.cpp">
+      <Filter>Animation System</Filter>
+    </ClCompile>
+    <ClCompile Include="source\AnimationSystem\AnimInfo.cpp">
+      <Filter>Animation System</Filter>
+    </ClCompile>
+    <ClCompile Include="source\inputs\AudioManager.cpp">
+      <Filter>Audio &amp; Inputs</Filter>
+    </ClCompile>
+    <ClCompile Include="source\states\AudioTestState.cpp">
+      <Filter>Audio &amp; Inputs</Filter>
+    </ClCompile>
+    <ClCompile Include="source\objects\CFireBoss.cpp">
+      <Filter>Game Entities\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Util\Character.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ComboSystem\ComboManager.cpp">
+      <Filter>Combo System</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Messages\Create_Enemy_Message.cpp">
+      <Filter>Events &amp; Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Messages\Create_Fan_Message.cpp">
+      <Filter>Events &amp; Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Messages\Create_FireBoss_FireBall_Message.cpp">
+      <Filter>Events &amp; Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Messages\Create_FireSpecial_Message.cpp">
+      <Filter>Events &amp; Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Messages\Create_IceBall_Message.cpp">
+      <Filter>Events &amp; Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Messages\Create_IceSpecial_Message.cpp">
+      <Filter>Events &amp; Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Messages\Create_PopUp_Message.cpp">
+      <Filter>Events &amp; Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Messages\Create_Projectile_Message.cpp">
+      <Filter>Events &amp; Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Messages\Create_Rock_Fall_Message.cpp">
+      <Filter>Events &amp; Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Messages\Create_Rock_Message.cpp">
+      <Filter>Events &amp; Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CSGD\Create_ScreenLock_Message.cpp">
+      <Filter>Events &amp; Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CSGD\Create_Trap_Message.cpp">
+      <Filter>Events &amp; Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Messages\Create_Wind_Tornado_Message.cpp">
+      <Filter>Events &amp; Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Messages\Create_Wrecking_Ball_Message.cpp">
+      <Filter>Events &amp; Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CSGD\CSGD_DirectInput.cpp">
+      <Filter>Audio &amp; Inputs</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CSGD\CSGD_MessageSystem.cpp">
+      <Filter>Events &amp; Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CSGD\CSGD_EventSystem.cpp">
+      <Filter>Events &amp; Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="source\objects\Dummy.cpp">
+      <Filter>Game Entities\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="source\objects\Enemy.cpp">
+      <Filter>Game Entities\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="source\objects\Fighter.cpp">
+      <Filter>Game Entities\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CSGD\CSGD_Direct3D.cpp">
+      <Filter>Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CSGD\CSGD_TextureManager.cpp">
+      <Filter>Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Messages\CreatePlayerMessage.cpp">
+      <Filter>Events &amp; Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="source\messages\DropEXPMessage.cpp">
+      <Filter>Events &amp; Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="source\states\ComingSoonState.cpp">
+      <Filter>Game States</Filter>
+    </ClCompile>
+    <ClCompile Include="source\states\MainMenuState.cpp">
+      <Filter>Game States</Filter>
+    </ClCompile>
+    <ClCompile Include="source\states\LoadingState.cpp">
+      <Filter>Game States</Filter>
+    </ClCompile>
+    <ClCompile Include="source\states\LoadState.cpp">
+      <Filter>Game States</Filter>
+    </ClCompile>
+    <ClCompile Include="source\states\PauseMenuState.cpp">
+      <Filter>Game States</Filter>
+    </ClCompile>
+    <ClCompile Include="source\states\OptionState.cpp">
+      <Filter>Game States</Filter>
+    </ClCompile>
+    <ClCompile Include="source\states\HomeMenuState.cpp">
+      <Filter>Game States</Filter>
+    </ClCompile>
+    <ClCompile Include="source\states\GameplayState.cpp">
+      <Filter>Game States</Filter>
+    </ClCompile>
+    <ClCompile Include="source\states\GameOverState.cpp">
+      <Filter>Game States</Filter>
+    </ClCompile>
+    <ClCompile Include="source\states\CreditsState.cpp">
+      <Filter>Game States</Filter>
+    </ClCompile>
+    <ClCompile Include="source\objects\Entity.cpp">
+      <Filter>Game Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="source\objects\EntityManager.cpp">
+      <Filter>Game Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="source\objects\EntityState.cpp">
+      <Filter>Game Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Util\FontManager.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CSGD\CSGD_XAudio2.cpp">
+      <Filter>Audio &amp; Inputs</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Messages\Perform_Fireball_Special_MSG.cpp">
+      <Filter>Events &amp; Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Messages\Perform_Shockwave_Special_MSG.cpp">
+      <Filter>Events &amp; Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Messages\Perform_SubZero_Special_MSG.cpp">
+      <Filter>Events &amp; Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Messages\Perform_Sweeping_Wind_MSG.cpp">
+      <Filter>Events &amp; Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="source\objects\PopUp.cpp">
+      <Filter>PopUps</Filter>
+    </ClCompile>
+    <ClCompile Include="source\objects\PopUp_DashingPunch.cpp">
+      <Filter>PopUps</Filter>
+    </ClCompile>
+    <ClCompile Include="source\objects\PopUp_Fireball_special.cpp">
+      <Filter>PopUps</Filter>
+    </ClCompile>
+    <ClCompile Include="source\objects\PopUp_RetreatingKick.cpp">
+      <Filter>PopUps</Filter>
+    </ClCompile>
+    <ClCompile Include="source\objects\PopUp_SPGain.cpp">
+      <Filter>PopUps</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Util\PopUpManager.cpp">
+      <Filter>PopUps</Filter>
+    </ClCompile>
+    <ClCompile Include="source\objects\PopUps_Traps.cpp">
+      <Filter>PopUps</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Inputs\Controller.cpp">
+      <Filter>Audio &amp; Inputs</Filter>
+    </ClCompile>
+    <ClCompile Include="source\objects\CWindBoss.cpp">
+      <Filter>Game Entities\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="source\objects\Grunt.cpp">
+      <Filter>Game Entities\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="source\TinyXML\tinyxmlparser.cpp">
+      <Filter>Utilities\TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="source\TinyXML\tinystr.cpp">
+      <Filter>Utilities\TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="source\TinyXML\tinyxml.cpp">
+      <Filter>Utilities\TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="source\TinyXML\tinyxmlerror.cpp">
+      <Filter>Utilities\TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GameInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Inputs\Player2Controller.cpp">
+      <Filter>Audio &amp; Inputs</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Inputs\Keyboard.cpp">
+      <Filter>Audio &amp; Inputs</Filter>
+    </ClCompile>
+    <ClCompile Include="source\objects\SweepingWind.cpp">
+      <Filter>Game Entities\Projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="source\objects\SubZero.cpp">
+      <Filter>Game Entities\Projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="source\objects\Special.cpp">
+      <Filter>Game Entities\Projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="source\objects\Projectile.cpp">
+      <Filter>Game Entities\Projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="source\objects\Iceball.cpp">
+      <Filter>Game Entities\Projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="source\objects\Fireball.cpp">
+      <Filter>Game Entities\Projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Messages\CreateMenuPopUp.cpp">
+      <Filter>Events &amp; Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="source\objects\Human.cpp">
+      <Filter>Game Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="source\objects\Player.cpp">
+      <Filter>Game Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CSGD\SGD_Math.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Camera.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="source\HUD.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Util\ItemManager.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="source\AnimationSystem\Frame.cpp">
+      <Filter>Animation System</Filter>
+    </ClCompile>
+    <ClCompile Include="source\states\SaveState.cpp">
+      <Filter>Game States</Filter>
+    </ClCompile>
+    <ClCompile Include="source\states\StateManager.cpp">
+      <Filter>Game States</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Util\Rect.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="source\TileSystem\Tile.cpp">
+      <Filter>Tile System</Filter>
+    </ClCompile>
+    <ClCompile Include="source\TileSystem\TileManager.cpp">
+      <Filter>Tile System</Filter>
+    </ClCompile>
+    <ClCompile Include="source\TileSystem\Layer.cpp">
+      <Filter>Tile System</Filter>
+    </ClCompile>
+    <ClCompile Include="source\objects\Trap.cpp">
+      <Filter>Game Entities\Traps</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CSGD\RemoveEntityMessage.cpp">
+      <Filter>Events &amp; Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CSGD\Toggle_Camera_Message.cpp">
+      <Filter>Events &amp; Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="source\objects\Shockwave.cpp">
+      <Filter>Game Entities\Projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="source\objects\Tank.cpp">
+      <Filter>Game Entities\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="source\objects\Wrecking_Ball.cpp">
+      <Filter>Game Entities\Traps</Filter>
+    </ClCompile>
+    <ClCompile Include="source\objects\Rock_Fall.cpp">
+      <Filter>Game Entities\Traps</Filter>
+    </ClCompile>
+    <ClCompile Include="source\objects\Thrower.cpp">
+      <Filter>Game Entities\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="source\states\ShopState.cpp">
+      <Filter>Game States</Filter>
+    </ClCompile>
+    <ClCompile Include="source\states\TutorialState.cpp">
+      <Filter>Game States</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WinMain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\objects\Boss.cpp">
+      <Filter>Game Entities\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="source\objects\Boss_Fire_Special.cpp">
+      <Filter>Game Entities\Projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="source\objects\EarthBoss.cpp">
+      <Filter>Game Entities\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="source\objects\IceBoss.cpp">
+      <Filter>Game Entities\Enemies</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\AnimationSystem\Animation.h">
+      <Filter>Animation System</Filter>
+    </ClInclude>
+    <ClInclude Include="source\AnimationSystem\AnimationManager.h">
+      <Filter>Animation System</Filter>
+    </ClInclude>
+    <ClInclude Include="source\AnimationSystem\AnimInfo.h">
+      <Filter>Animation System</Filter>
+    </ClInclude>
+    <ClInclude Include="source\inputs\AudioManager.h">
+      <Filter>Audio &amp; Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="source\states\AudioTestState.h">
+      <Filter>Audio &amp; Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="source\objects\CFireBoss.h">
+      <Filter>Game Entities\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Util\Character.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CSGD\CEvent.h">
+      <Filter>Events &amp; Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ComboSystem\ComboManager.h">
+      <Filter>Combo System</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ComboSystem\Combo.h">
+      <Filter>Combo System</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Messages\Create_Enemy_Message.h">
+      <Filter>Events &amp; Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Messages\Create_Fan_Message.h">
+      <Filter>Events &amp; Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Messages\Create_FireBoss_FireBall_Message.h">
+      <Filter>Events &amp; Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Messages\Create_FireSpecial_Message.h">
+      <Filter>Events &amp; Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Messages\Create_IceBall_Message.h">
+      <Filter>Events &amp; Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Messages\Create_IceSpecial_Message.h">
+      <Filter>Events &amp; Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Messages\Create_PopUp_Message.h">
+      <Filter>Events &amp; Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Messages\Create_Projectile_Message.h">
+      <Filter>Events &amp; Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Messages\Create_Rock_Fall_Message.h">
+      <Filter>Events &amp; Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Messages\Create_Rock_Message.h">
+      <Filter>Events &amp; Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CSGD\Create_ScreenLock_Message.h">
+      <Filter>Events &amp; Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CSGD\Create_Trap_Message.h">
+      <Filter>Events &amp; Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Messages\Create_Wind_Tornado_Message.h">
+      <Filter>Events &amp; Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Messages\Create_Wrecking_Ball_Message.h">
+      <Filter>Events &amp; Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CSGD\CSGD_DirectInput.h">
+      <Filter>Audio &amp; Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CSGD\CSGD_MessageSystem.h">
+      <Filter>Events &amp; Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CSGD\CSGD_EventSystem.h">
+      <Filter>Events &amp; Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="source\objects\Dummy.h">
+      <Filter>Game Entities\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="source\objects\Enemy.h">
+      <Filter>Game Entities\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="source\objects\Fighter.h">
+      <Filter>Game Entities\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CSGD\CSGD_TextureManager.h">
+      <Filter>Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CSGD\CSGD_Direct3D.h">
+      <Filter>Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Messages\CreatePlayerMessage.h">
+      <Filter>Events &amp; Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="source\messages\DropEXPMessage.h">
+      <Filter>Events &amp; Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="source\states\ComingSoonState.h">
+      <Filter>Game States</Filter>
+    </ClInclude>
+    <ClInclude Include="source\states\MainMenuState.h">
+      <Filter>Game States</Filter>
+    </ClInclude>
+    <ClInclude Include="source\states\LoadingState.h">
+      <Filter>Game States</Filter>
+    </ClInclude>
+    <ClInclude Include="source\states\LoadState.h">
+      <Filter>Game States</Filter>
+    </ClInclude>
+    <ClInclude Include="source\states\PauseMenuState.h">
+      <Filter>Game States</Filter>
+    </ClInclude>
+    <ClInclude Include="source\states\OptionState.h">
+      <Filter>Game States</Filter>
+    </ClInclude>
+    <ClInclude Include="source\states\HomeMenuState.h">
+      <Filter>Game States</Filter>
+    </ClInclude>
+    <ClInclude Include="source\states\GameOverState.h">
+      <Filter>Game States</Filter>
+    </ClInclude>
+    <ClInclude Include="source\states\GameplayState.h">
+      <Filter>Game States</Filter>
+    </ClInclude>
+    <ClInclude Include="source\states\CreditsState.h">
+      <Filter>Game States</Filter>
+    </ClInclude>
+    <ClInclude Include="source\objects\Entity.h">
+      <Filter>Game Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="source\objects\EntityManager.h">
+      <Filter>Game Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="source\objects\EntityState.h">
+      <Filter>Game Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Util\FontManager.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CSGD\CSGD_XAudio2.h">
+      <Filter>Audio &amp; Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Messages\Perform_Fireball_Special_MSG.h">
+      <Filter>Events &amp; Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Messages\Perform_Shockwave_Special_MSG.h">
+      <Filter>Events &amp; Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Messages\Perform_SubZero_Special_MSG.h">
+      <Filter>Events &amp; Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Messages\Perform_Sweeping_Wind_MSG.h">
+      <Filter>Events &amp; Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="source\objects\PopUp.h">
+      <Filter>PopUps</Filter>
+    </ClInclude>
+    <ClInclude Include="source\objects\PopUp_DashingPunch.h">
+      <Filter>PopUps</Filter>
+    </ClInclude>
+    <ClInclude Include="source\objects\PopUp_Fireball_special.h">
+      <Filter>PopUps</Filter>
+    </ClInclude>
+    <ClInclude Include="source\objects\PopUp_RetreatingKick.h">
+      <Filter>PopUps</Filter>
+    </ClInclude>
+    <ClInclude Include="source\objects\PopUp_SPGain.h">
+      <Filter>PopUps</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Util\PopUpManager.h">
+      <Filter>PopUps</Filter>
+    </ClInclude>
+    <ClInclude Include="source\objects\PopUps_Traps.h">
+      <Filter>PopUps</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Inputs\BaseInput.h">
+      <Filter>Audio &amp; Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Inputs\Controller.h">
+      <Filter>Audio &amp; Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="source\objects\CWindBoss.h">
+      <Filter>Game Entities\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="source\objects\Grunt.h">
+      <Filter>Game Entities\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="source\TinyXML\tinystr.h">
+      <Filter>Utilities\TinyXML</Filter>
+    </ClInclude>
+    <ClInclude Include="source\TinyXML\tinyxml.h">
+      <Filter>Utilities\TinyXML</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Game.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\GameInfo.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Inputs\Player2Controller.h">
+      <Filter>Audio &amp; Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Inputs\Keyboard.h">
+      <Filter>Audio &amp; Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="source\objects\SweepingWind.h">
+      <Filter>Game Entities\Projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="source\objects\SubZero.h">
+      <Filter>Game Entities\Projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="source\objects\Special.h">
+      <Filter>Game Entities\Projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="source\objects\Projectile.h">
+      <Filter>Game Entities\Projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="source\objects\Iceball.h">
+      <Filter>Game Entities\Projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="source\objects\Fireball.h">
+      <Filter>Game Entities\Projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Util\D3DCOLORS.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Messages\CreateMenuPopUp.h">
+      <Filter>Events &amp; Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="source\objects\Human.h">
+      <Filter>Game Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="source\objects\IEntity.h">
+      <Filter>Game Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="source\objects\Player.h">
+      <Filter>Game Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CSGD\SGD_Math.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CSGD\SGD_String.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CSGD\SGD_Util.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Camera.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="source\HUD.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Util\ItemManager.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="source\AnimationSystem\Frame.h">
+      <Filter>Animation System</Filter>
+    </ClInclude>
+    <ClInclude Include="source\states\SaveState.h">
+      <Filter>Game States</Filter>
+    </ClInclude>
+    <ClInclude Include="source\states\StateManager.h">
+      <Filter>Game States</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Util\Rect.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Util\SLList.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="source\TileSystem\Tile.h">
+      <Filter>Tile System</Filter>
+    </ClInclude>
+    <ClInclude Include="source\TileSystem\TileManager.h">
+      <Filter>Tile System</Filter>
+    </ClInclude>
+    <ClInclude Include="source\TileSystem\Layer.h">
+      <Filter>Tile System</Filter>
+    </ClInclude>
+    <ClInclude Include="source\objects\Trap.h">
+      <Filter>Game Entities\Traps</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CSGD\RemoveEntityMessage.h">
+      <Filter>Events &amp; Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CSGD\Toggle_Camera_Message.h">
+      <Filter>Events &amp; Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="source\objects\Shockwave.h">
+      <Filter>Game Entities\Projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="source\objects\Tank.h">
+      <Filter>Game Entities\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="source\objects\Wrecking_Ball.h">
+      <Filter>Game Entities\Traps</Filter>
+    </ClInclude>
+    <ClInclude Include="source\objects\Rock_Fall.h">
+      <Filter>Game Entities\Traps</Filter>
+    </ClInclude>
+    <ClInclude Include="source\objects\Thrower.h">
+      <Filter>Game Entities\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="source\states\ShopState.h">
+      <Filter>Game States</Filter>
+    </ClInclude>
+    <ClInclude Include="source\states\IGameState.h">
+      <Filter>Game States</Filter>
+    </ClInclude>
+    <ClInclude Include="source\states\TutorialState.h">
+      <Filter>Game States</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CSGD\IMessage.h">
+      <Filter>Events &amp; Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CSGD\IListener.h">
+      <Filter>Events &amp; Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CSGD\Message.h">
+      <Filter>Events &amp; Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\objects\Boss.h">
+      <Filter>Game Entities\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="source\objects\Boss_Fire_Special.h">
+      <Filter>Game Entities\Projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="source\objects\EarthBoss.h">
+      <Filter>Game Entities\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="source\objects\IceBoss.h">
+      <Filter>Game Entities\Enemies</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="resource\Graphics\menus\ToM_Splash.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ToMIcon.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resource\Graphics\menus\ToM_Splash.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Animation System">
+      <UniqueIdentifier>{f333742c-fe62-4c7e-8c4b-cc2591f2ec81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Audio &amp; Inputs">
+      <UniqueIdentifier>{e32a25f4-bed7-488f-b0ff-3ae590a3ade7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Combo System">
+      <UniqueIdentifier>{e7d960e6-5e62-44a0-b06f-8d7ca5a254d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Events &amp; Messages">
+      <UniqueIdentifier>{0edd887e-4751-4cb4-ad1a-63acda553a79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Entities">
+      <UniqueIdentifier>{30fcbfd8-ad93-421b-a990-ef608f287760}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game States">
+      <UniqueIdentifier>{8509226f-7d03-4908-af79-f38dcf08ac9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tile System">
+      <UniqueIdentifier>{89be196e-1ad4-4727-937a-60bc22a6fb71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities">
+      <UniqueIdentifier>{ecda542c-83f2-417e-99d9-c905449efd4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PopUps">
+      <UniqueIdentifier>{8e20297d-c7a2-4964-824f-2ad15b89ba9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Entities\Projectiles">
+      <UniqueIdentifier>{68623672-aad3-4f5b-a812-b4d4b0f45670}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Entities\Traps">
+      <UniqueIdentifier>{8d57bcde-c60c-46a7-ad28-d70b48ab3d3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering">
+      <UniqueIdentifier>{36bec8cc-f262-43b4-be8f-3030a0574425}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4681142a-0dbb-4637-b98f-d0d6cbf8a369}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{745ee956-ad59-40bc-8751-e9de4b8012bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities\TinyXML">
+      <UniqueIdentifier>{2ec646e7-5dab-4aa2-8a4d-d89fc9028074}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Entities\Enemies">
+      <UniqueIdentifier>{6961e8cc-56e8-4df7-bbd7-28e595ff041c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TrialsOfMastery.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Animations>
+  <Filename path="Conveyor_Belt.png" />
+  <Animation name="Conveyor_Belt_Left" maxframes="4" islooping="true">
+    <Frame damage="0" duration="0.150" trigger="-1">
+      <AnchorPoint x="1" y="1" />
+      <SourceRect left="50" top="42" right="114" bottom="106" />
+      <CollisionRect left="-51" top="-43" right="-51" bottom="-43" />
+      <ActiveRect left="-1" top="-1" right="63" bottom="63" />
+    </Frame>
+    <Frame damage="0" duration="0.150" trigger="-1">
+      <AnchorPoint x="1" y="1" />
+      <SourceRect left="66" top="42" right="130" bottom="106" />
+      <CollisionRect left="-67" top="-43" right="-67" bottom="-43" />
+      <ActiveRect left="-1" top="-1" right="63" bottom="63" />
+    </Frame>
+    <Frame damage="0" duration="0.150" trigger="-1">
+      <AnchorPoint x="1" y="1" />
+      <SourceRect left="82" top="42" right="146" bottom="106" />
+      <CollisionRect left="-83" top="-43" right="-83" bottom="-43" />
+      <ActiveRect left="-1" top="-1" right="63" bottom="63" />
+    </Frame>
+    <Frame damage="0" duration="0.150" trigger="-1">
+      <AnchorPoint x="1" y="1" />
+      <SourceRect left="98" top="42" right="162" bottom="106" />
+      <CollisionRect left="-99" top="-43" right="-99" bottom="-43" />
+      <ActiveRect left="-1" top="-1" right="63" bottom="63" />
+    </Frame>
+  </Animation>
+</Animations>

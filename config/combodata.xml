@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ComboData>
+  <Combo name="Player_Dashing_Punch" length="3">123</Combo>
+  <Combo name="Player_Retreating_Kick" length="3">321</Combo>
+  <Combo name="Player_Upperkick" length="4">1132</Combo>
+  <Combo name="Player_Leg_Sweep" length="4">2132</Combo>
+  <Combo name="Player_Hurricane_Kick" length="5">22313</Combo>
+  <Combo name="Player_Falcon_Kick" length="5">31321</Combo>
+</ComboData>

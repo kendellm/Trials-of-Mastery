@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Animations>
+  <Filename path="player_upperkick.png" />
+  <Animation name="Player_Upperkick" maxframes="7" islooping="false">
+    <Frame damage="0" duration="0.10" trigger="Sound" data="28">
+      <AnchorPoint x="51" y="117" />
+      <SourceRect left="16" top="18" right="98" bottom="137" />
+      <CollisionRect left="-23" top="-43" right="26" bottom="0" />
+    </Frame>
+    <Frame damage="0" duration="0.05" trigger="-1">
+      <AnchorPoint x="72" y="125" />
+      <SourceRect left="111" top="16" right="197" bottom="137" />
+      <CollisionRect left="-23" top="-43" right="26" bottom="0" />
+    </Frame>
+    <Frame damage="7" duration="0.10" trigger="-1">
+      <AnchorPoint x="104" y="127" />
+      <SourceRect left="15" top="152" right="154" bottom="248" />
+      <CollisionRect left="-23" top="-43" right="26" bottom="0" />
+      <ActiveRect left="-96" top="-39" right="-25" bottom="-14" />
+    </Frame>
+    <Frame damage="7" duration="0.10" trigger="-1">
+      <AnchorPoint x="116" y="194" />
+      <SourceRect left="16" top="259" right="180" bottom="380" />
+      <CollisionRect left="-23" top="-43" right="26" bottom="0" />
+      <ActiveRect left="-112" top="-36" right="-23" bottom="-11" />
+    </Frame>
+    <Frame damage="0" duration="0.10" trigger="-1">
+      <AnchorPoint x="29" y="157" />
+      <SourceRect left="15" top="393" right="128" bottom="486" />
+      <CollisionRect left="-23" top="-43" right="26" bottom="0" />
+    </Frame>
+    <Frame damage="0" duration="0.10" trigger="-1">
+      <AnchorPoint x="33" y="124" />
+      <SourceRect left="136" top="390" right="245" bottom="455" />
+      <CollisionRect left="-23" top="-43" right="26" bottom="0" />
+    </Frame>
+    <Frame damage="0" duration="0.10" trigger="-1">
+      <AnchorPoint x="37" y="83" />
+      <SourceRect left="164" top="158" right="238" bottom="245" />
+      <CollisionRect left="-22" top="-41" right="27" bottom="0" />
+    </Frame>
+  </Animation>
+</Animations>

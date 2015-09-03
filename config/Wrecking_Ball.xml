@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Animations>
+  <Filename path="wrecking-ball.png" />
+  <Animation name="Wrecking_Ball" maxframes="2" islooping="true">
+    <Frame damage="20" duration="0.1" trigger="-1">
+      <AnchorPoint x="26" y="36" />
+      <SourceRect left="18" top="30" right="111" bottom="116" />
+      <CollisionRect left="-44" top="-66" right="-44" bottom="-66" />
+      <ActiveRect left="-29" top="-11" right="35" bottom="55" />
+    </Frame>
+    <Frame damage="20" duration="0.1" trigger="-1">
+      <AnchorPoint x="26" y="36" />
+      <SourceRect left="18" top="30" right="111" bottom="116" />
+      <CollisionRect left="-44" top="-66" right="-44" bottom="-66" />
+      <ActiveRect left="-29" top="-11" right="35" bottom="55" />
+    </Frame>
+  </Animation>
+</Animations>

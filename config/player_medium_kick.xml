@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Animations>
+  <Filename path="player_medium_kick.png" />
+  <Animation name="Player_Medium_Kick" maxframes="6" islooping="false">
+    <Frame damage="0" duration="0.05" trigger="-1">
+      <AnchorPoint x="30" y="107" />
+      <SourceRect left="2" top="2" right="64" bottom="116" />
+      <CollisionRect left="-17" top="-22" right="16" bottom="5" />
+    </Frame>
+    <Frame damage="3" duration="0.05" trigger="-1">
+      <AnchorPoint x="42" y="106" />
+      <SourceRect left="65" top="3" right="120" bottom="115" />
+      <CollisionRect left="-20" top="-28" right="8" bottom="5" />
+      <ActiveRect left="-38" top="-18" right="-15" bottom="-8" />
+    </Frame>
+    <Frame damage="3" duration="0.05" trigger="-1">
+      <AnchorPoint x="47" y="109" />
+      <SourceRect left="120" top="3" right="179" bottom="117" />
+      <CollisionRect left="-29" top="-31" right="5" bottom="3" />
+      <ActiveRect left="-46" top="-21" right="-23" bottom="-11" />
+    </Frame>
+    <Frame damage="3" duration="0.05" trigger="-1">
+      <AnchorPoint x="67" y="108" />
+      <SourceRect left="2" top="118" right="93" bottom="230" />
+      <CollisionRect left="-34" top="-35" right="21" bottom="2" />
+      <ActiveRect left="-66" top="-26" right="-27" bottom="-12" />
+    </Frame>
+    <Frame damage="3" duration="0.05" trigger="-1">
+      <AnchorPoint x="45" y="110" />
+      <SourceRect left="120" top="3" right="179" bottom="116" />
+      <CollisionRect left="-24" top="-32" right="8" bottom="2" />
+      <ActiveRect left="-43" top="-24" right="-22" bottom="-11" />
+    </Frame>
+    <Frame damage="0" duration="0.05" trigger="-1">
+      <AnchorPoint x="23" y="108" />
+      <SourceRect left="2" top="3" right="65" bottom="116" />
+      <CollisionRect left="-15" top="-29" right="26" bottom="2" />
+    </Frame>
+  </Animation>
+</Animations>

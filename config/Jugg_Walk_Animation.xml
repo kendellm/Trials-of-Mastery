@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Animations>
+  <Filename path="Jugg_Walk_Animation.png" />
+  <Animation name="Jugg_Walk_Animation" maxframes="4" islooping="true">
+    <Frame damage="0" duration="0.25" trigger="-1">
+      <AnchorPoint x="50" y="128" />
+      <SourceRect left="30" top="33" right="134" bottom="169" />
+      <CollisionRect left="-50" top="-23" right="54" bottom="8" />
+    </Frame>
+    <Frame damage="0" duration="0.25" trigger="-1">
+      <AnchorPoint x="32" y="129" />
+      <SourceRect left="162" top="32" right="225" bottom="171" />
+      <CollisionRect left="-32" top="-20" right="31" bottom="10" />
+    </Frame>
+    <Frame damage="0" duration="0.25" trigger="-1">
+      <AnchorPoint x="43" y="125" />
+      <SourceRect left="255" top="32" right="340" bottom="169" />
+      <CollisionRect left="-43" top="-16" right="42" bottom="12" />
+    </Frame>
+    <Frame damage="0" duration="0.25" trigger="-1">
+      <AnchorPoint x="48" y="127" />
+      <SourceRect left="367" top="32" right="457" bottom="169" />
+      <CollisionRect left="-48" top="-22" right="42" bottom="10" />
+    </Frame>
+  </Animation>
+</Animations>

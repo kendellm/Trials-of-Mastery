@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Animations>
+  <Filename path="Figher_Walk_Animation.png" />
+  <Animation name="Fighter_Walk_Animation" maxframes="6" islooping="true">
+    <Frame damage="0" duration="0.1" trigger="-1">
+      <AnchorPoint x="41" y="100" />
+      <SourceRect left="14" top="15" right="116" bottom="118" />
+      <CollisionRect left="-22" top="-37" right="23" bottom="0" />
+    </Frame>
+    <Frame damage="0" duration="0.1" trigger="-1">
+      <AnchorPoint x="41" y="100" />
+      <SourceRect left="133" top="17" right="213" bottom="119" />
+      <CollisionRect left="-22" top="-37" right="23" bottom="0" />
+    </Frame>
+    <Frame damage="0" duration="0.1" trigger="-1">
+      <AnchorPoint x="41" y="100" />
+      <SourceRect left="15" top="135" right="90" bottom="238" />
+      <CollisionRect left="-22" top="-37" right="23" bottom="0" />
+    </Frame>
+    <Frame damage="0" duration="0.1" trigger="-1">
+      <AnchorPoint x="41" y="100" />
+      <SourceRect left="106" top="136" right="199" bottom="241" />
+      <CollisionRect left="-22" top="-37" right="23" bottom="0" />
+    </Frame>
+    <Frame damage="0" duration="0.1" trigger="-1">
+      <AnchorPoint x="41" y="100" />
+      <SourceRect left="15" top="256" right="91" bottom="361" />
+      <CollisionRect left="-22" top="-37" right="23" bottom="0" />
+    </Frame>
+    <Frame damage="0" duration="0.1" trigger="-1">
+      <AnchorPoint x="41" y="100" />
+      <SourceRect left="106" top="259" right="187" bottom="365" />
+      <CollisionRect left="-22" top="-37" right="23" bottom="0" />
+    </Frame>
+  </Animation>
+</Animations>

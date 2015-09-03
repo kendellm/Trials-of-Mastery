@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Animations>
+  <Filename path="fire-boss_death_animation.png" />
+  <Animation name="FireBoss_Death_Animation" maxframes="4" islooping="false">
+    <Frame damage="0" duration="0.250" trigger="-1">
+      <AnchorPoint x="33" y="117" />
+      <SourceRect left="13" top="12" right="77" bottom="130" />
+      <CollisionRect left="-46" top="-129" right="-46" bottom="-129" />
+    </Frame>
+    <Frame damage="0" duration="0.250" trigger="-1">
+      <AnchorPoint x="33" y="89" />
+      <SourceRect left="100" top="12" right="170" bottom="103" />
+      <CollisionRect left="-133" top="-101" right="-133" bottom="-101" />
+    </Frame>
+    <Frame damage="0" duration="0.250" trigger="-1">
+      <AnchorPoint x="47" y="88" />
+      <SourceRect left="12" top="154" right="110" bottom="244" />
+      <CollisionRect left="-59" top="-242" right="-59" bottom="-242" />
+    </Frame>
+    <Frame damage="0" duration="0.1" trigger="Self Destruct">
+      <AnchorPoint x="73" y="42" />
+      <SourceRect left="13" top="260" right="160" bottom="304" />
+      <CollisionRect left="-86" top="-302" right="-86" bottom="-302" />
+    </Frame>
+  </Animation>
+</Animations>

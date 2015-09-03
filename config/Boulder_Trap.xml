@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Animations>
+  <Filename path="Boulder.png" />
+  <Animation name="Boulder_Trap" maxframes="4" islooping="true">
+    <Frame damage="30" duration="0.100" trigger="-1">
+      <AnchorPoint x="1" y="1" />
+      <SourceRect left="193" top="1" right="257" bottom="64" />
+      <CollisionRect left="-194" top="-2" right="-194" bottom="-2" />
+      <ActiveRect left="-1" top="-1" right="63" bottom="62" />
+    </Frame>
+    <Frame damage="30" duration="0.1" trigger="-1">
+      <AnchorPoint x="1" y="1" />
+      <SourceRect left="193" top="65" right="255" bottom="127" />
+      <CollisionRect left="-194" top="-66" right="-194" bottom="-66" />
+      <ActiveRect left="-1" top="-1" right="61" bottom="61" />
+    </Frame>
+    <Frame damage="30" duration="0.1" trigger="-1">
+      <AnchorPoint x="1" y="1" />
+      <SourceRect left="192" top="130" right="255" bottom="191" />
+      <CollisionRect left="-193" top="-131" right="-193" bottom="-131" />
+      <ActiveRect left="-1" top="-1" right="62" bottom="60" />
+    </Frame>
+    <Frame damage="30" duration="0.1" trigger="-1">
+      <AnchorPoint x="1" y="1" />
+      <SourceRect left="194" top="195" right="257" bottom="255" />
+      <CollisionRect left="-195" top="-196" right="-195" bottom="-196" />
+      <ActiveRect left="-1" top="-1" right="62" bottom="59" />
+    </Frame>
+  </Animation>
+</Animations>

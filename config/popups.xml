@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PopUpManager>
+	<PopUp file="resource/PopUps/popup_combo.png" type="0" posX="300" posY="130" width="350" height="127" />
+	<PopUp file="resource/PopUps/SP_BAR.png" type="1" posX="100" posY="130" width="512" height="127" />
+	<PopUp file="resource/PopUps/SPECIAL.png" type="2" posX="100" posY="130" width="512" height="127" />
+	<PopUp file="resource/PopUps/SHOP.png" type="3" posX="0" posY="0" width="800" height="600" />
+	<PopUp file="resource/PopUps/BUY_SKILL.png" type="4" posX="0" posY="0" width="800" height="600" />
+</PopUpManager>

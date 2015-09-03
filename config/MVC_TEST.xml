@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Animations>
+  <Filename path="MVC2_Ryu_61.png" />
+  <Animation name="MVC_TEST" maxframes="2" islooping="true">
+    <Frame damage="0" duration="0.500" trigger="-1">
+      <AnchorPoint x="39" y="122" />
+      <SourceRect left="52" top="34" right="122" bottom="161" />
+      <CollisionRect left="-37" top="-21" right="28" bottom="6" />
+    </Frame>
+    <Frame damage="0" duration="0.500" trigger="-1">
+      <AnchorPoint x="38" y="122" />
+      <SourceRect left="177" top="34" right="249" bottom="165" />
+      <CollisionRect left="-37" top="-21" right="28" bottom="6" />
+    </Frame>
+  </Animation>
+</Animations>

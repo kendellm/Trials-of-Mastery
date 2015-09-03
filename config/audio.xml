@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Audio_Manager>
+	<BGM>
+		<XWM file="resource/Audio/BGM/main.xwm" />
+		<XWM file="resource/Audio/BGM/home.xwm" />
+		<XWM file="resource/Audio/BGM/shop.xwm" />
+		<XWM file="resource/Audio/BGM/dojo.xwm" />
+		<XWM file="resource/Audio/BGM/mountain.xwm" />
+		<XWM file="resource/Audio/BGM/credits.xwm" />
+		<XWM file="resource/Audio/BGM/boss.xwm" />
+	</BGM>
+	<SFX>
+		<WAV file="resource/Audio/SFX/cursor.wav" />
+		<WAV file="resource/Audio/SFX/denied.wav" />
+		<WAV file="resource/Audio/SFX/light_attack.wav" />
+		<WAV file="resource/Audio/SFX/heavy_attack.wav" />
+		<WAV file="resource/Audio/SFX/collision_sound.wav" />
+		<WAV file="resource/Audio/SFX/collision_sound_2.wav" />
+		<WAV file="resource/Audio/SFX/collision_sound_3.wav" />
+		<WAV file="resource/Audio/SFX/combo_length_five_success.wav" />
+		<WAV file="resource/Audio/SFX/combo_length_four_success.wav" />
+		<WAV file="resource/Audio/SFX/fire_ball_impact.wav" />
+		<WAV file="resource/Audio/SFX/fire_boss_explosion.wav" />
+		<WAV file="resource/Audio/SFX/fire_boss_explosion_2.wav" />
+		<WAV file="resource/Audio/SFX/fire_boss_explosion_3.wav" />
+		<WAV file="resource/Audio/SFX/fire_boss_explosion_startup.wav" />
+		<WAV file="resource/Audio/SFX/ice_boss_aoe_freeze.wav" />
+		<WAV file="resource/Audio/SFX/jump_land.wav" />
+		<WAV file="resource/Audio/SFX/large_fireball_spawn.wav" />
+		<WAV file="resource/Audio/SFX/new_game_sound.wav" />
+		<WAV file="resource/Audio/SFX/player_fireball_spawn.wav" />
+		<WAV file="resource/Audio/SFX/retreating_kick_sound.wav" />
+		<WAV file="resource/Audio/SFX/shop_upgrade_sound.wav" />
+		<WAV file="resource/Audio/SFX/wind_boss_push.wav" />
+		<WAV file="resource/Audio/SFX/swing_punch_l.wav" />
+		<WAV file="resource/Audio/SFX/swing_punch_m.wav" />
+		<WAV file="resource/Audio/SFX/swing_punch_h.wav" />
+		<WAV file="resource/Audio/SFX/swing_kick_l.wav" />
+		<WAV file="resource/Audio/SFX/swing_kick_m.wav" />
+		<WAV file="resource/Audio/SFX/swing_kick_h.wav" />
+		<WAV file="resource/Audio/SFX/swoosh.wav" />"
+		<WAV file="resource/Audio/SFX/hurricane_kick.wav" />"
+	</SFX>
+</Audio_Manager>

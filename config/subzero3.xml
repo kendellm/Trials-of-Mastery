@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Animations>
+  <Filename path="subzero3.png" />
+  <Animation name="subzero3" maxframes="3" islooping="false">
+    <Frame damage="0" duration="0.35" trigger="-1">
+      <AnchorPoint x="92" y="98" />
+      <SourceRect left="64" top="64" right="252" bottom="249" />
+      <CollisionRect left="-156" top="-162" right="-156" bottom="-162" />
+      <ActiveRect left="-93" top="-99" right="96" bottom="86" />
+    </Frame>
+    <Frame damage="0" duration="0.35" trigger="-1">
+      <AnchorPoint x="110" y="121" />
+      <SourceRect left="44" top="42" right="277" bottom="281" />
+      <CollisionRect left="-154" top="-163" right="-154" bottom="-163" />
+      <ActiveRect left="-111" top="-122" right="123" bottom="118" />
+    </Frame>
+    <Frame damage="0" duration="0.50" trigger="-1">
+      <AnchorPoint x="152" y="165" />
+      <SourceRect left="1" top="0" right="317" bottom="312" />
+      <CollisionRect left="-153" top="-165" right="-153" bottom="-165" />
+      <ActiveRect left="-152" top="-164" right="164" bottom="146" />
+    </Frame>
+  </Animation>
+</Animations>

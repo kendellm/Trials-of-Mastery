@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Animations>
+  <Filename path="player_sliding_kick.png" />
+  <Animation name="Player_Sliding_Kick" maxframes="5" islooping="false">
+    <Frame damage="0" duration="0.10" trigger="Sound" data="25">
+      <AnchorPoint x="29" y="72" />
+      <SourceRect left="21" top="20" right="83" bottom="95" />
+      <CollisionRect left="-21" top="-29" right="24" bottom="2" />
+    </Frame>
+    <Frame damage="3" duration="0.05" trigger="-1">
+      <AnchorPoint x="54" y="74" />
+      <SourceRect left="96" top="20" right="186" bottom="97" />
+      <CollisionRect left="-19" top="-37" right="32" bottom="0" />
+      <ActiveRect left="-51" top="-20" right="-9" bottom="0" />
+    </Frame>
+    <Frame damage="3" duration="0.10" trigger="-1">
+      <AnchorPoint x="78" y="73" />
+      <SourceRect left="199" top="22" right="313" bottom="99" />
+      <CollisionRect left="-21" top="-32" right="32" bottom="1" />
+      <ActiveRect left="-76" top="-21" right="-16" bottom="1" />
+    </Frame>
+    <Frame damage="0" duration="0.05" trigger="-1">
+      <AnchorPoint x="36" y="75" />
+      <SourceRect left="327" top="19" right="398" bottom="97" />
+      <CollisionRect left="-19" top="-36" right="28" bottom="1" />
+    </Frame>
+    <Frame damage="0" duration="0.05" trigger="-1">
+      <AnchorPoint x="34" y="74" />
+      <SourceRect left="409" top="21" right="478" bottom="98" />
+      <CollisionRect left="-23" top="-33" right="26" bottom="0" />
+    </Frame>
+  </Animation>
+</Animations>

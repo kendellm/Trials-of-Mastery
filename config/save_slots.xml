@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Save_Files>
+    <Save slot="0" empty="0">
+        <Player stage="1" Exp="0" />
+        <Upgrades>
+            <Health level="1" />
+            <Special level="1" />
+            <Lives level="1" />
+            <Fire level="1" />
+            <Wind level="0" />
+            <Ice level="0" />
+            <Earth level="0" />
+        </Upgrades>
+        <Options>
+            <fullscreen value="1" />
+            <language value="0" />
+            <BGM value="50" />
+            <SFX value="50" />
+        </Options>
+    </Save>
+    <Save slot="1" empty="0">
+        <Player stage="1" Exp="1" />
+        <Upgrades>
+            <Health level="1" />
+            <Special level="1" />
+            <Lives level="1" />
+            <Fire level="1" />
+            <Wind level="0" />
+            <Ice level="0" />
+            <Earth level="0" />
+        </Upgrades>
+        <Options>
+            <fullscreen value="1" />
+            <language value="0" />
+            <BGM value="50" />
+            <SFX value="50" />
+        </Options>
+    </Save>
+    <Save slot="2" empty="0">
+        <Player stage="1" Exp="0" />
+        <Upgrades>
+            <Health level="1" />
+            <Special level="1" />
+            <Lives level="1" />
+            <Fire level="1" />
+            <Wind level="0" />
+            <Ice level="0" />
+            <Earth level="0" />
+        </Upgrades>
+        <Options>
+            <fullscreen value="1" />
+            <language value="0" />
+            <BGM value="50" />
+            <SFX value="50" />
+        </Options>
+    </Save>
+    <Save slot="3" empty="1">
+        <Player stage="4" Exp="0" />
+        <Upgrades>
+            <Health level="3" />
+            <Special level="3" />
+            <Lives level="3" />
+            <Fire level="3" />
+            <Wind level="3" />
+            <Ice level="3" />
+            <Earth level="3" />
+        </Upgrades>
+        <Options>
+            <fullscreen value="1" />
+            <language value="0" />
+            <BGM value="50" />
+            <SFX value="50" />
+        </Options>
+    </Save>
+</Save_Files>

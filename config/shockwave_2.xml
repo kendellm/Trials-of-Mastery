@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Animations>
+  <Filename path="New Shockwave.png" />
+  <Animation name="Shockwave_2" maxframes="6" islooping="true">
+    <Frame damage="10" duration="0.1" trigger="-1">
+      <AnchorPoint x="37" y="60" />
+      <SourceRect left="42" top="61" right="123" bottom="122" />
+      <CollisionRect left="-79" top="-121" right="-79" bottom="-121" />
+      <ActiveRect left="-32" top="-29" right="40" bottom="0" />
+    </Frame>
+    <Frame damage="10" duration="0.1" trigger="-1">
+      <AnchorPoint x="40" y="56" />
+      <SourceRect left="175" top="73" right="265" bottom="129" />
+      <CollisionRect left="-215" top="-129" right="-215" bottom="-129" />
+      <ActiveRect left="-34" top="-31" right="44" bottom="-2" />
+    </Frame>
+    <Frame damage="10" duration="0.1" trigger="-1">
+      <AnchorPoint x="39" y="84" />
+      <SourceRect left="320" top="45" right="411" bottom="132" />
+      <CollisionRect left="-359" top="-129" right="-359" bottom="-129" />
+      <ActiveRect left="-36" top="-28" right="46" bottom="-2" />
+    </Frame>
+    <Frame damage="10" duration="0.1" trigger="-1">
+      <AnchorPoint x="40" y="82" />
+      <SourceRect left="42" top="176" right="135" bottom="261" />
+      <CollisionRect left="-82" top="-258" right="-82" bottom="-258" />
+      <ActiveRect left="-31" top="-31" right="38" bottom="-4" />
+    </Frame>
+    <Frame damage="10" duration="0.1" trigger="-1">
+      <AnchorPoint x="37" y="78" />
+      <SourceRect left="182" top="180" right="270" bottom="260" />
+      <CollisionRect left="-219" top="-258" right="-219" bottom="-258" />
+      <ActiveRect left="-34" top="-31" right="40" bottom="-4" />
+    </Frame>
+    <Frame damage="10" duration="0.1" trigger="-1">
+      <AnchorPoint x="33" y="77" />
+      <SourceRect left="316" top="174" right="402" bottom="253" />
+      <CollisionRect left="-349" top="-251" right="-349" bottom="-251" />
+      <ActiveRect left="-29" top="-32" right="43" bottom="-5" />
+    </Frame>
+  </Animation>
+</Animations>

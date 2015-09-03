@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Animations>
+  <Filename path="player_flinch.png" />
+  <Animation name="Player_Flinch" maxframes="1" islooping="false">
+    <Frame damage="0" duration="0.50" trigger="-1">
+      <AnchorPoint x="41" y="103" />
+      <SourceRect left="10" top="12" right="87" bottom="118" />
+      <CollisionRect left="-26" top="-40" right="25" bottom="0" />
+    </Frame>
+  </Animation>
+    <Animation name="Player_Frozen" maxframes="1" islooping="false">
+    <Frame damage="0" duration="3.00" trigger="-1">
+      <AnchorPoint x="41" y="103" />
+      <SourceRect left="10" top="12" right="87" bottom="118" />
+      <CollisionRect left="-26" top="-40" right="25" bottom="0" />
+    </Frame>
+  </Animation>
+</Animations>

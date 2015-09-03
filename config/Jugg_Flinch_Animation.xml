@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Animations>
+  <Filename path="jugg_flinch.png" />
+  <Animation name="Jugg_Flinch_Animation" maxframes="1" islooping="false">
+    <Frame damage="0" duration="0.5" trigger="-1">
+      <AnchorPoint x="48" y="130" />
+      <SourceRect left="18" top="18" right="104" bottom="151" />
+      <CollisionRect left="-31" top="-48" right="36" bottom="1" />
+    </Frame>
+  </Animation>
+    <Animation name="Jugg_Frozen_Animation" maxframes="1" islooping="false">
+    <Frame damage="0" duration="3.000" trigger="-1">
+      <AnchorPoint x="48" y="130" />
+      <SourceRect left="18" top="18" right="104" bottom="151" />
+      <CollisionRect left="-31" top="-48" right="36" bottom="1" />
+    </Frame>
+  </Animation>
+</Animations>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Animations>
+  <Filename path="Thrower_Flinch.png" />
+  <Animation name="Thrower_Flinch_Animation" maxframes="1" islooping="false">
+    <Frame damage="0" duration="0.500" trigger="-1">
+      <AnchorPoint x="30" y="96" />
+      <SourceRect left="1" top="3" right="54" bottom="103" />
+      <CollisionRect left="-20" top="-31" right="18" bottom="3" />
+    </Frame>
+  </Animation>
+    <Animation name="Thrower_Frozen_Animation" maxframes="1" islooping="false">
+    <Frame damage="0" duration="3.000" trigger="-1">
+      <AnchorPoint x="30" y="96" />
+      <SourceRect left="1" top="3" right="54" bottom="103" />
+      <CollisionRect left="-20" top="-31" right="18" bottom="3" />
+    </Frame>
+  </Animation>
+</Animations>

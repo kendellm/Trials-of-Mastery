@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Animations>
+  <Filename path="wind-boss_death_animation.png" />
+  <Animation name="WindBoss_Death_Animation" maxframes="5" islooping="false">
+    <Frame damage="0" duration="0.250" trigger="-1">
+      <AnchorPoint x="31" y="94" />
+      <SourceRect left="7" top="7" right="73" bottom="102" />
+      <CollisionRect left="-38" top="-101" right="-38" bottom="-101" />
+    </Frame>
+    <Frame damage="0" duration="0.250" trigger="-1">
+      <AnchorPoint x="37" y="74" />
+      <SourceRect left="84" top="8" right="162" bottom="83" />
+      <CollisionRect left="-121" top="-82" right="-121" bottom="-82" />
+    </Frame>
+    <Frame damage="0" duration="0.200" trigger="-1">
+      <AnchorPoint x="46" y="67" />
+      <SourceRect left="9" top="116" right="100" bottom="184" />
+      <CollisionRect left="-55" top="-183" right="-55" bottom="-183" />
+    </Frame>
+    <Frame damage="0" duration="0.175" trigger="-1">
+      <AnchorPoint x="54" y="56" />
+      <SourceRect left="111" top="114" right="222" bottom="172" />
+      <CollisionRect left="-165" top="-170" right="-165" bottom="-170" />
+    </Frame>
+    <Frame damage="0" duration="0.175" trigger="Self Destruct">
+      <AnchorPoint x="65" y="32" />
+      <SourceRect left="10" top="198" right="141" bottom="231" />
+      <CollisionRect left="-75" top="-230" right="-75" bottom="-230" />
+    </Frame>
+  </Animation>
+</Animations>

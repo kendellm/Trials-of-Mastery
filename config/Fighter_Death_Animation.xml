@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Animations>
+  <Filename path="Fighter_Death_Animation.png" />
+  <Animation name="Fighter_Death_Animation" maxframes="5" islooping="false">
+    <Frame damage="0" duration="0.25" trigger="-1">
+      <AnchorPoint x="33" y="97" />
+      <SourceRect left="31" top="33" right="98" bottom="132" />
+      <CollisionRect left="0" top="0" right="0" bottom="0" />
+    </Frame>
+    <Frame damage="0" duration="0.250" trigger="-1">
+      <AnchorPoint x="27" y="89" />
+      <SourceRect left="128" top="32" right="193" bottom="124" />
+      <CollisionRect left="0" top="0" right="0" bottom="0" />
+    </Frame>
+    <Frame damage="0" duration="0.150" trigger="-1">
+      <AnchorPoint x="31" y="85" />
+      <SourceRect left="32" top="164" right="106" bottom="252" />
+      <CollisionRect left="0" top="0" right="0" bottom="0" />
+    </Frame>
+    <Frame damage="0" duration="0.125" trigger="-1">
+      <AnchorPoint x="83" y="60" />
+      <SourceRect left="32" top="285" right="155" bottom="349" />
+      <CollisionRect left="0" top="0" right="0" bottom="0" />
+    </Frame>
+    <Frame damage="0" duration="0.400" trigger="Self Destruct">
+      <AnchorPoint x="92" y="24" />
+      <SourceRect left="30" top="374" right="167" bottom="411" />
+      <CollisionRect left="0" top="0" right="0" bottom="0" />
+    </Frame>
+  </Animation>
+</Animations>

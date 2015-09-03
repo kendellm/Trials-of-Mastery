@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Animations>
+  <Filename path="player_freeze_special.png" />
+  <Animation name="Player_Subzero_lvl1" maxframes="7" islooping="false">
+    <Frame damage="0" duration="0.050" trigger="-1">
+      <AnchorPoint x="35" y="117" />
+      <SourceRect left="59" top="59" right="130" bottom="180" />
+      <CollisionRect left="-95" top="-177" right="-95" bottom="-175" />
+    </Frame>
+    <Frame damage="0" duration="0.050" trigger="-1">
+      <AnchorPoint x="37" y="117" />
+      <SourceRect left="165" top="57" right="241" bottom="180" />
+      <CollisionRect left="-202" top="-174" right="-202" bottom="-174" />
+    </Frame>
+    <Frame damage="0" duration="0.050" trigger="-1">
+      <AnchorPoint x="42" y="117" />
+      <SourceRect left="268" top="55" right="348" bottom="179" />
+      <CollisionRect left="-310" top="-172" right="-310" bottom="-172" />
+    </Frame>
+    <Frame damage="0" duration="0.050" trigger="-1">
+      <AnchorPoint x="38" y="116" />
+      <SourceRect left="380" top="58" right="455" bottom="180" />
+      <CollisionRect left="-418" top="-174" right="-418" bottom="-174" />
+    </Frame>
+    <Frame damage="0" duration="0.150" trigger="-1">
+      <AnchorPoint x="153" y="232" />
+      <SourceRect left="549" top="58" right="854" bottom="378" />
+      <CollisionRect left="-702" top="-290" right="-702" bottom="-290" />
+      <ActiveRect left="-77" top="-91" right="87" bottom="30" />
+    </Frame>
+    <Frame damage="0" duration="0.150" trigger="-1">
+      <AnchorPoint x="152" y="233" />
+      <SourceRect left="104" top="461" right="409" bottom="782" />
+      <CollisionRect left="-256" top="-694" right="-256" bottom="-694" />
+      <ActiveRect left="-74" top="-91" right="89" bottom="38" />
+    </Frame>
+    <Frame damage="0" duration="0.150" trigger="-1">
+      <AnchorPoint x="156" y="226" />
+      <SourceRect left="533" top="462" right="846" bottom="776" />
+      <CollisionRect left="-689" top="-688" right="-689" bottom="-688" />
+      <ActiveRect left="-79" top="-95" right="80" bottom="31" />
+    </Frame>
+  </Animation>
+  <Animation name="Player_Subzero_lvl2" maxframes="7" islooping="false">
+    <Frame damage="0" duration="0.050" trigger="-1">
+      <AnchorPoint x="35" y="117" />
+      <SourceRect left="59" top="59" right="130" bottom="180" />
+      <CollisionRect left="-95" top="-177" right="-95" bottom="-175" />
+    </Frame>
+    <Frame damage="0" duration="0.050" trigger="-1">
+      <AnchorPoint x="37" y="117" />
+      <SourceRect left="165" top="57" right="241" bottom="180" />
+      <CollisionRect left="-202" top="-174" right="-202" bottom="-174" />
+    </Frame>
+    <Frame damage="0" duration="0.050" trigger="-1">
+      <AnchorPoint x="42" y="117" />
+      <SourceRect left="268" top="55" right="348" bottom="179" />
+      <CollisionRect left="-310" top="-172" right="-310" bottom="-172" />
+    </Frame>
+    <Frame damage="0" duration="0.050" trigger="-1">
+      <AnchorPoint x="38" y="116" />
+      <SourceRect left="380" top="58" right="455" bottom="180" />
+      <CollisionRect left="-418" top="-174" right="-418" bottom="-174" />
+    </Frame>
+    <Frame damage="0" duration="0.150" trigger="-1">
+      <AnchorPoint x="153" y="232" />
+      <SourceRect left="549" top="58" right="854" bottom="378" />
+      <CollisionRect left="-702" top="-290" right="-702" bottom="-290" />
+      <ActiveRect left="-103" top="-116" right="116" bottom="61" />
+    </Frame>
+    <Frame damage="0" duration="0.150" trigger="-1">
+      <AnchorPoint x="152" y="233" />
+      <SourceRect left="104" top="461" right="409" bottom="782" />
+      <CollisionRect left="-256" top="-694" right="-256" bottom="-694" />
+      <ActiveRect left="-92" top="-103" right="100" bottom="46" />
+    </Frame>
+    <Frame damage="0" duration="0.150" trigger="-1">
+      <AnchorPoint x="156" y="226" />
+      <SourceRect left="533" top="462" right="846" bottom="776" />
+      <CollisionRect left="-689" top="-688" right="-689" bottom="-688" />
+      <ActiveRect left="-89" top="-108" right="104" bottom="49" />
+    </Frame>
+  </Animation>
+   <Animation name="Player_Subzero_lvl3" maxframes="7" islooping="false">
+    <Frame damage="0" duration="0.050" trigger="-1">
+      <AnchorPoint x="35" y="117" />
+      <SourceRect left="59" top="59" right="130" bottom="180" />
+      <CollisionRect left="-95" top="-177" right="-95" bottom="-175" />
+    </Frame>
+    <Frame damage="0" duration="0.050" trigger="-1">
+      <AnchorPoint x="37" y="117" />
+      <SourceRect left="165" top="57" right="241" bottom="180" />
+      <CollisionRect left="-202" top="-174" right="-202" bottom="-174" />
+    </Frame>
+    <Frame damage="0" duration="0.050" trigger="-1">
+      <AnchorPoint x="42" y="117" />
+      <SourceRect left="268" top="55" right="348" bottom="179" />
+      <CollisionRect left="-310" top="-172" right="-310" bottom="-172" />
+    </Frame>
+    <Frame damage="0" duration="0.050" trigger="-1">
+      <AnchorPoint x="38" y="116" />
+      <SourceRect left="380" top="58" right="455" bottom="180" />
+      <CollisionRect left="-418" top="-174" right="-418" bottom="-174" />
+    </Frame>
+    <Frame damage="0" duration="0.150" trigger="-1">
+      <AnchorPoint x="153" y="232" />
+      <SourceRect left="549" top="58" right="854" bottom="378" />
+      <CollisionRect left="-702" top="-290" right="-702" bottom="-290" />
+      <ActiveRect left="-187" top="-250" right="200" bottom="117" />
+    </Frame>
+    <Frame damage="0" duration="0.150" trigger="-1">
+      <AnchorPoint x="152" y="233" />
+      <SourceRect left="104" top="461" right="409" bottom="782" />
+      <CollisionRect left="-256" top="-694" right="-256" bottom="-694" />
+      <ActiveRect left="-193" top="-264" right="198" bottom="121" />
+    </Frame>
+    <Frame damage="0" duration="0.150" trigger="-1">
+      <AnchorPoint x="156" y="226" />
+      <SourceRect left="533" top="462" right="846" bottom="776" />
+      <CollisionRect left="-689" top="-688" right="-689" bottom="-688" />
+      <ActiveRect left="-190" top="-260" right="201" bottom="126" />
+    </Frame>
+  </Animation>
+  </Animations>

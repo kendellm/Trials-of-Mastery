@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Animations>
+  <Filename path="player_knocked_down.png" />
+  <Animation name="Player_Knocked_Down" maxframes="12" islooping="false">
+    <Frame damage="0" duration="0.10" trigger="-1">
+      <AnchorPoint x="36" y="86" />
+      <SourceRect left="15" top="15" right="109" bottom="104" />
+      <CollisionRect left="-51" top="-101" right="-51" bottom="-101" />
+    </Frame>
+    <Frame damage="0" duration="0.0750" trigger="-1">
+      <AnchorPoint x="34" y="83" />
+      <SourceRect left="124" top="15" right="222" bottom="99" />
+      <CollisionRect left="-158" top="-98" right="-158" bottom="-98" />
+    </Frame>
+    <Frame damage="0" duration="0.1250" trigger="-1">
+      <AnchorPoint x="52" y="105" />
+      <SourceRect left="366" top="15" right="472" bottom="80" />
+      <CollisionRect left="-418" top="-120" right="-418" bottom="-120" />
+    </Frame>
+    <Frame damage="0" duration="0.20" trigger="-1">
+      <AnchorPoint x="18" y="99" />
+      <SourceRect left="15" top="121" right="92" bottom="209" />
+      <CollisionRect left="-33" top="-220" right="-33" bottom="-220" />
+    </Frame>
+    <Frame damage="0" duration="0.20" trigger="-1">
+      <AnchorPoint x="52" y="75" />
+      <SourceRect left="106" top="120" right="220" bottom="188" />
+      <CollisionRect left="-158" top="-195" right="-158" bottom="-195" />
+    </Frame>
+    <Frame damage="0" duration="0.15" trigger="-1">
+      <AnchorPoint x="55" y="47" />
+      <SourceRect left="235" top="120" right="355" bottom="166" />
+      <CollisionRect left="-290" top="-167" right="-290" bottom="-167" />
+    </Frame>
+    <Frame damage="0" duration="0.15" trigger="-1">
+      <AnchorPoint x="58" y="44" />
+      <SourceRect left="371" top="122" right="495" bottom="165" />
+      <CollisionRect left="-429" top="-166" right="-429" bottom="-166" />
+    </Frame>
+    <Frame damage="0" duration="0.15" trigger="-1">
+      <AnchorPoint x="65" y="38" />
+      <SourceRect left="13" top="224" right="144" bottom="262" />
+      <CollisionRect left="-78" top="-262" right="-78" bottom="-262" />
+    </Frame>
+    <Frame damage="0" duration="0.500" trigger="-1">
+      <AnchorPoint x="62" y="36" />
+      <SourceRect left="160" top="226" right="288" bottom="261" />
+      <CollisionRect left="-222" top="-262" right="-222" bottom="-262" />
+    </Frame>
+    <Frame damage="0" duration="0.350" trigger="-1">
+      <AnchorPoint x="61" y="56" />
+      <SourceRect left="29" top="307" right="130" bottom="363" />
+      <CollisionRect left="-90" top="-363" right="-90" bottom="-363" />
+    </Frame>
+    <Frame damage="0" duration="0.250" trigger="-1">
+      <AnchorPoint x="49" y="66" />
+      <SourceRect left="143" top="307" right="232" bottom="375" />
+      <CollisionRect left="-192" top="-373" right="-192" bottom="-373" />
+    </Frame>
+    <Frame damage="0" duration="0.200" trigger="-1">
+      <AnchorPoint x="46" y="64" />
+      <SourceRect left="29" top="389" right="111" bottom="455" />
+      <CollisionRect left="-75" top="-453" right="-75" bottom="-453" />
+    </Frame>
+  </Animation>
+</Animations>

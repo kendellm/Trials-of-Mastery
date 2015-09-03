@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Animations>
+  <Filename path="fire-boss_attack_animation.png" />
+  <Animation name="FireBoss_Attack_Animation" maxframes="6" islooping="false">
+    <Frame damage="0" duration="0.250" trigger="Fire Special">
+      <AnchorPoint x="38" y="117" />
+      <SourceRect left="22" top="21" right="98" bottom="140" />
+      <CollisionRect left="-36" top="-25" right="36" bottom="1" />
+    </Frame>
+    <Frame damage="5" duration="0.250" trigger="-1">
+      <AnchorPoint x="56" y="128" />
+      <SourceRect left="117" top="22" right="223" bottom="152" />
+      <CollisionRect left="-37" top="-31" right="46" bottom="0" />
+      <ActiveRect left="-50" top="-127" right="-29" bottom="-59" />
+    </Frame>
+    <Frame damage="5" duration="0.250" trigger="-1">
+      <AnchorPoint x="56" y="128" />
+      <SourceRect left="240" top="22" right="343" bottom="151" />
+      <CollisionRect left="-30" top="-37" right="43" bottom="-1" />
+      <ActiveRect left="-51" top="-123" right="-32" bottom="-64" />
+    </Frame>
+    <Frame damage="5" duration="0.250" trigger="-1">
+      <AnchorPoint x="56" y="126" />
+      <SourceRect left="362" top="22" right="461" bottom="151" />
+      <CollisionRect left="-38" top="-34" right="38" bottom="1" />
+      <ActiveRect left="-53" top="-122" right="-36" bottom="-65" />
+    </Frame>
+    <Frame damage="5" duration="0.250" trigger="-1">
+      <AnchorPoint x="55" y="126" />
+      <SourceRect left="19" top="172" right="124" bottom="301" />
+      <CollisionRect left="-27" top="-29" right="46" bottom="0" />
+      <ActiveRect left="-50" top="-119" right="-31" bottom="-59" />
+    </Frame>
+    <Frame damage="0" duration="0.200" trigger="-1">
+      <AnchorPoint x="39" y="117" />
+      <SourceRect left="143" top="171" right="226" bottom="289" />
+      <CollisionRect left="-32" top="-32" right="40" bottom="-2" />
+    </Frame>
+  </Animation>
+</Animations>

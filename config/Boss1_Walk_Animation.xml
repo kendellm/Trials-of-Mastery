@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Animations>
+  <Filename path="Boss1_Walk_Animation.png" />
+  <Animation name="Boss1_Walk_Animation" maxframes="6" islooping="true">
+    <Frame damage="0" duration="0.25" trigger="-1">
+      <AnchorPoint x="37" y="106" />
+      <SourceRect left="32" top="32" right="103" bottom="141" />
+      <CollisionRect left="-34" top="-30" right="31" bottom="1" />
+    </Frame>
+    <Frame damage="0" duration="0.25" trigger="-1">
+      <AnchorPoint x="32" y="105" />
+      <SourceRect left="134" top="32" right="196" bottom="140" />
+      <CollisionRect left="-20" top="-20" right="24" bottom="3" />
+    </Frame>
+    <Frame damage="0" duration="0.25" trigger="-1">
+      <AnchorPoint x="31" y="109" />
+      <SourceRect left="30" top="172" right="89" bottom="282" />
+      <CollisionRect left="-22" top="-29" right="20" bottom="1" />
+    </Frame>
+    <Frame damage="0" duration="0.25" trigger="-1">
+      <AnchorPoint x="38" y="109" />
+      <SourceRect left="118" top="168" right="194" bottom="279" />
+      <CollisionRect left="-29" top="-29" right="33" bottom="2" />
+    </Frame>
+    <Frame damage="0" duration="0.25" trigger="-1">
+      <AnchorPoint x="24" y="115" />
+      <SourceRect left="32" top="306" right="84" bottom="423" />
+      <CollisionRect left="-17" top="-23" right="23" bottom="2" />
+    </Frame>
+    <Frame damage="0" duration="0.25" trigger="-1">
+      <AnchorPoint x="32" y="108" />
+      <SourceRect left="115" top="314" right="179" bottom="425" />
+      <CollisionRect left="-31" top="-25" right="30" bottom="3" />
+    </Frame>
+  </Animation>
+</Animations>

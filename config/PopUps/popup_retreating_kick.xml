@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Animations>
+  <Filename path="player_retreating_kick.png" />
+  <Animation name="popup_Retreating_Kick" maxframes="7" islooping="false">
+    <Frame damage="0" duration="0.10" trigger="-1">
+      <AnchorPoint x="40" y="87" />
+      <SourceRect left="9" top="11" right="112" bottom="101" />
+      <CollisionRect left="2" top="-38" right="56" bottom="1" />
+    </Frame>
+    <Frame damage="0" duration="0.10" trigger="-1">
+      <AnchorPoint x="64" y="126" />
+      <SourceRect left="125" top="10" right="240" bottom="140" />
+      <CollisionRect left="0" top="-38" right="56" bottom="1" />
+      <ActiveRect left="-65" top="-25" right="-11" bottom="-9" />
+    </Frame>
+    <Frame damage="0" duration="0.10" trigger="-1">
+      <AnchorPoint x="12" y="129" />
+      <SourceRect left="11" top="155" right="109" bottom="286" />
+      <CollisionRect left="1" top="-39" right="56" bottom="1" />
+    </Frame>
+    <Frame damage="0" duration="0.10" trigger="-1">
+      <AnchorPoint x="21" y="114" />
+      <SourceRect left="120" top="155" right="242" bottom="274" />
+      <CollisionRect left="1" top="-39" right="56" bottom="1" />
+      <ActiveRect left="54" top="-23" right="96" bottom="-4" />
+    </Frame>
+    <Frame damage="0" duration="0.10" trigger="-1">
+      <AnchorPoint x="29" y="70" />
+      <SourceRect left="10" top="300" right="143" bottom="374" />
+      <CollisionRect left="1" top="-36" right="56" bottom="1" />
+    </Frame>
+    <Frame damage="0" duration="0.10" trigger="-1">
+      <AnchorPoint x="24" y="86" />
+      <SourceRect left="11" top="390" right="113" bottom="481" />
+      <CollisionRect left="-4" top="-40" right="56" bottom="1" />
+    </Frame>
+    <Frame damage="0" duration="0.10" trigger="-1">
+      <AnchorPoint x="29" y="81" />
+      <SourceRect left="119" top="386" right="198" bottom="470" />
+      <CollisionRect left="-8" top="-40" right="56" bottom="1" />
+    </Frame>
+  </Animation>
+</Animations>

@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Animations>
+  <Filename path="Ranged_Sprites.png" />
+  <Animation name="Thrower_Knocked_Down_Animation" maxframes="8" islooping="false">
+    <Frame damage="0" duration="0.100" trigger="-1">
+      <AnchorPoint x="20" y="89" />
+      <SourceRect left="16" top="148" right="59" bottom="248" />
+      <CollisionRect left="0" top="0" right="0" bottom="0" />
+    </Frame>
+    <Frame damage="0" duration="0.200" trigger="-1">
+      <AnchorPoint x="43" y="59" />
+      <SourceRect left="90" top="174" right="149" bottom="246" />
+      <CollisionRect left="0" top="0" right="0" bottom="0" />
+    </Frame>
+    <Frame damage="0" duration="0.100" trigger="-1">
+      <AnchorPoint x="68" y="55" />
+      <SourceRect left="180" top="180" right="266" bottom="249" />
+      <CollisionRect left="0" top="0" right="0" bottom="0" />
+    </Frame>
+    <Frame damage="0" duration="0.100" trigger="-1">
+      <AnchorPoint x="90" y="40" />
+      <SourceRect left="312" top="186" right="420" bottom="239" />
+      <CollisionRect left="0" top="0" right="0" bottom="0" />
+    </Frame>
+    <Frame damage="0" duration="0.500" trigger="-1">
+      <AnchorPoint x="99" y="10" />
+      <SourceRect left="465" top="216" right="584" bottom="242" />
+      <CollisionRect left="0" top="2" right="0" bottom="2" />
+    </Frame>
+    <Frame damage="0" duration="0.150" trigger="-1">
+      <AnchorPoint x="80" y="24" />
+      <SourceRect left="611" top="154" right="709" bottom="193" />
+      <CollisionRect left="-691" top="-178" right="-691" bottom="-178" />
+    </Frame>
+    <Frame damage="0" duration="0.1" trigger="-1">
+      <AnchorPoint x="63" y="33" />
+      <SourceRect left="612" top="207" right="693" bottom="252" />
+      <CollisionRect left="-675" top="-240" right="-675" bottom="-240" />
+    </Frame>
+    <Frame damage="0" duration="0.1" trigger="-1">
+      <AnchorPoint x="51" y="51" />
+      <SourceRect left="613" top="264" right="683" bottom="322" />
+      <CollisionRect left="-664" top="-315" right="-664" bottom="-315" />
+    </Frame>
+  </Animation>
+</Animations>

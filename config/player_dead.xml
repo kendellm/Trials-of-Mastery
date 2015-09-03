@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Animations>
+  <Filename path="player_dead.png" />
+  <Animation name="Player_Dead" maxframes="8" islooping="false">
+    <Frame damage="0" duration="0.20" trigger="-1">
+      <AnchorPoint x="32" y="99" />
+      <SourceRect left="18" top="18" right="82" bottom="119" />
+      <CollisionRect left="-50" top="-117" right="-50" bottom="-117" />
+    </Frame>
+    <Frame damage="0" duration="0.10" trigger="-1">
+      <AnchorPoint x="32" y="81" />
+      <SourceRect left="94" top="18" right="160" bottom="103" />
+      <CollisionRect left="-126" top="-99" right="-126" bottom="-99" />
+    </Frame>
+    <Frame damage="0" duration="0.10" trigger="-1">
+      <AnchorPoint x="32" y="80" />
+      <SourceRect left="18" top="131" right="84" bottom="215" />
+      <CollisionRect left="-50" top="-211" right="-50" bottom="-211" />
+    </Frame>
+    <Frame damage="0" duration="0.10" trigger="-1">
+      <AnchorPoint x="47" y="83" />
+      <SourceRect left="96" top="131" right="177" bottom="218" />
+      <CollisionRect left="-143" top="-214" right="-143" bottom="-214" />
+    </Frame>
+    <Frame damage="0" duration="0.10" trigger="-1">
+      <AnchorPoint x="61" y="83" />
+      <SourceRect left="17" top="231" right="112" bottom="317" />
+      <CollisionRect left="-78" top="-314" right="-78" bottom="-314" />
+    </Frame>
+    <Frame damage="0" duration="0.10" trigger="-1">
+      <AnchorPoint x="91" y="60" />
+      <SourceRect left="18" top="331" right="144" bottom="397" />
+      <CollisionRect left="-109" top="-391" right="-109" bottom="-391" />
+    </Frame>
+    <Frame damage="0" duration="0.10" trigger="-1">
+      <AnchorPoint x="99" y="30" />
+      <SourceRect left="19" top="406" right="156" bottom="440" />
+      <CollisionRect left="-118" top="-436" right="-118" bottom="-436" />
+    </Frame>
+    <Frame damage="0" duration="1.0" trigger="Respawn">
+      <AnchorPoint x="99" y="28" />
+      <SourceRect left="19" top="455" right="157" bottom="488" />
+      <CollisionRect left="-118" top="-483" right="-118" bottom="-483" />
+    </Frame>
+  </Animation>
+</Animations>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Animations>
+  <Filename path="Fighter_Flinch_Animation.png" />
+  <Animation name="Fighter_Flinch_Animation" maxframes="1" islooping="false">
+    <Frame damage="0" duration="0.500" trigger="-1">
+      <AnchorPoint x="37" y="101" />
+      <SourceRect left="8" top="9" right="86" bottom="119" />
+      <CollisionRect left="-24" top="-33" right="27" bottom="3" />
+    </Frame>
+  </Animation>
+  <Animation name="Fighter_Frozen_Animation" maxframes="1" islooping="false">
+    <Frame damage="0" duration="3.00" trigger="-1">
+      <AnchorPoint x="37" y="101" />
+      <SourceRect left="8" top="9" right="86" bottom="119" />
+      <CollisionRect left="-24" top="-33" right="27" bottom="3" />
+    </Frame>
+  </Animation>
+</Animations>

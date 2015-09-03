@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Animations>
+  <Filename path="player_getting_up.png" />
+  <Animation name="Player_Get_Up" maxframes="3" islooping="false">
+    <Frame damage="0" duration="0.35" trigger="-1">
+      <AnchorPoint x="60" y="63" />
+      <SourceRect left="22" top="21" right="123" bottom="77" />
+      <CollisionRect left="-82" top="-84" right="-82" bottom="-84" />
+    </Frame>
+    <Frame damage="0" duration="0.25" trigger="-1">
+      <AnchorPoint x="45" y="75" />
+      <SourceRect left="137" top="21" right="225" bottom="89" />
+      <CollisionRect left="-182" top="-96" right="-182" bottom="-96" />
+    </Frame>
+    <Frame damage="0" duration="0.20" trigger="-1">
+      <AnchorPoint x="60" y="78" />
+      <SourceRect left="22" top="103" right="104" bottom="169" />
+      <CollisionRect left="-82" top="-181" right="-82" bottom="-181" />
+    </Frame>
+  </Animation>
+</Animations>

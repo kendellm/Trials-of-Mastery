@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Animations>
+  <Filename path="Boss1_Shoot_Animation.png" />
+  <Animation name="Boss1_Shoot_Animation" maxframes="5" islooping="false">
+    <Frame damage="0" duration="0.15" trigger="-1">
+      <AnchorPoint x="35" y="95" />
+      <SourceRect left="28" top="31" right="95" bottom="128" />
+      <CollisionRect left="-32" top="-33" right="30" bottom="1" />
+    </Frame>
+    <Frame damage="0" duration="0.15" trigger="-1">
+      <AnchorPoint x="40" y="108" />
+      <SourceRect left="125" top="32" right="207" bottom="142" />
+      <CollisionRect left="-21" top="-29" right="39" bottom="2" />
+    </Frame>
+    <Frame damage="0" duration="0.15" trigger="-1">
+      <AnchorPoint x="31" y="112" />
+      <SourceRect left="31" top="174" right="95" bottom="287" />
+      <CollisionRect left="-27" top="-40" right="29" bottom="1" />
+    </Frame>
+    <Frame damage="0" duration="0.15" trigger="-1">
+      <AnchorPoint x="34" y="101" />
+      <SourceRect left="124" top="175" right="192" bottom="278" />
+      <CollisionRect left="-27" top="-35" right="29" bottom="1" />
+    </Frame>
+    <Frame damage="0" duration="0.15" trigger="-1">
+      <AnchorPoint x="40" y="102" />
+      <SourceRect left="29" top="317" right="103" bottom="420" />
+      <CollisionRect left="-28" top="-33" right="29" bottom="1" />
+    </Frame>
+  </Animation>
+</Animations>

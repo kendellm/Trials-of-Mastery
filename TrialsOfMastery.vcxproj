@@ -1,0 +1,311 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{90E85405-02E5-476B-89B8-8172A51B0C70}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>TrialsOfMastery</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="source\AnimationSystem\Animation.cpp" />
+    <ClCompile Include="source\AnimationSystem\AnimationManager.cpp" />
+    <ClCompile Include="source\AnimationSystem\AnimInfo.cpp" />
+    <ClCompile Include="source\AnimationSystem\Frame.cpp" />
+    <ClCompile Include="source\Camera.cpp" />
+    <ClCompile Include="source\ComboSystem\ComboManager.cpp" />
+    <ClCompile Include="source\CSGD\Create_ScreenLock_Message.cpp" />
+    <ClCompile Include="source\CSGD\Create_Trap_Message.cpp" />
+    <ClCompile Include="source\CSGD\CSGD_Direct3D.cpp" />
+    <ClCompile Include="source\CSGD\CSGD_DirectInput.cpp" />
+    <ClCompile Include="source\CSGD\CSGD_EventSystem.cpp" />
+    <ClCompile Include="source\CSGD\CSGD_MessageSystem.cpp" />
+    <ClCompile Include="source\CSGD\CSGD_TextureManager.cpp" />
+    <ClCompile Include="source\CSGD\CSGD_XAudio2.cpp" />
+    <ClCompile Include="source\CSGD\RemoveEntityMessage.cpp" />
+    <ClCompile Include="source\CSGD\SGD_Math.cpp" />
+    <ClCompile Include="source\CSGD\Toggle_Camera_Message.cpp" />
+    <ClCompile Include="source\Game.cpp" />
+    <ClCompile Include="source\GameInfo.cpp" />
+    <ClCompile Include="source\HUD.cpp" />
+    <ClCompile Include="source\inputs\AudioManager.cpp" />
+    <ClCompile Include="source\Inputs\Controller.cpp" />
+    <ClCompile Include="source\Inputs\Keyboard.cpp" />
+    <ClCompile Include="source\Inputs\Player2Controller.cpp" />
+    <ClCompile Include="source\Messages\CreateMenuPopUp.cpp" />
+    <ClCompile Include="source\Messages\CreatePlayerMessage.cpp" />
+    <ClCompile Include="source\Messages\Create_Fan_Message.cpp" />
+    <ClCompile Include="source\Messages\Create_FireBoss_FireBall_Message.cpp" />
+    <ClCompile Include="source\Messages\Create_FireSpecial_Message.cpp" />
+    <ClCompile Include="source\Messages\Create_IceBall_Message.cpp" />
+    <ClCompile Include="source\Messages\Create_IceSpecial_Message.cpp" />
+    <ClCompile Include="source\Messages\Create_Projectile_Message.cpp" />
+    <ClCompile Include="source\Messages\Create_Rock_Fall_Message.cpp" />
+    <ClCompile Include="source\Messages\Create_Rock_Message.cpp" />
+    <ClCompile Include="source\Messages\Create_Wind_Tornado_Message.cpp" />
+    <ClCompile Include="source\Messages\Create_Wrecking_Ball_Message.cpp" />
+    <ClCompile Include="source\messages\DropEXPMessage.cpp" />
+    <ClCompile Include="source\Messages\Perform_Fireball_Special_MSG.cpp" />
+    <ClCompile Include="source\Messages\Perform_Shockwave_Special_MSG.cpp" />
+    <ClCompile Include="source\Messages\Perform_SubZero_Special_MSG.cpp" />
+    <ClCompile Include="source\Messages\Perform_Sweeping_Wind_MSG.cpp" />
+    <ClCompile Include="source\objects\Boss.cpp" />
+    <ClCompile Include="source\objects\EarthBoss.cpp" />
+    <ClCompile Include="source\objects\Boss_Fire_Special.cpp" />
+    <ClCompile Include="source\objects\CFireBoss.cpp" />
+    <ClCompile Include="source\objects\IceBoss.cpp" />
+    <ClCompile Include="source\objects\CWindBoss.cpp" />
+    <ClCompile Include="source\objects\Dummy.cpp" />
+    <ClCompile Include="source\Messages\Create_Enemy_Message.cpp" />
+    <ClCompile Include="source\Messages\Create_PopUp_Message.cpp" />
+    <ClCompile Include="source\objects\Enemy.cpp" />
+    <ClCompile Include="source\objects\Entity.cpp" />
+    <ClCompile Include="source\objects\EntityManager.cpp" />
+    <ClCompile Include="source\objects\EntityState.cpp" />
+    <ClCompile Include="source\objects\Fighter.cpp" />
+    <ClCompile Include="source\objects\Fireball.cpp" />
+    <ClCompile Include="source\objects\Grunt.cpp" />
+    <ClCompile Include="source\objects\Human.cpp" />
+    <ClCompile Include="source\objects\Iceball.cpp" />
+    <ClCompile Include="source\objects\Player.cpp" />
+    <ClCompile Include="source\objects\PopUp.cpp" />
+    <ClCompile Include="source\objects\PopUps_Traps.cpp" />
+    <ClCompile Include="source\objects\PopUp_DashingPunch.cpp" />
+    <ClCompile Include="source\objects\PopUp_Fireball_special.cpp" />
+    <ClCompile Include="source\objects\PopUp_RetreatingKick.cpp" />
+    <ClCompile Include="source\objects\PopUp_SPGain.cpp" />
+    <ClCompile Include="source\objects\Projectile.cpp" />
+    <ClCompile Include="source\objects\Rock_Fall.cpp" />
+    <ClCompile Include="source\objects\Shockwave.cpp" />
+    <ClCompile Include="source\objects\Special.cpp" />
+    <ClCompile Include="source\objects\SubZero.cpp" />
+    <ClCompile Include="source\objects\SweepingWind.cpp" />
+    <ClCompile Include="source\objects\Tank.cpp" />
+    <ClCompile Include="source\objects\Thrower.cpp" />
+    <ClCompile Include="source\objects\Wrecking_Ball.cpp" />
+    <ClCompile Include="source\states\AudioTestState.cpp" />
+    <ClCompile Include="source\states\ComingSoonState.cpp" />
+    <ClCompile Include="source\objects\Trap.cpp" />
+    <ClCompile Include="source\states\CreditsState.cpp" />
+    <ClCompile Include="source\states\GameOverState.cpp" />
+    <ClCompile Include="source\states\GameplayState.cpp" />
+    <ClCompile Include="source\states\HomeMenuState.cpp" />
+    <ClCompile Include="source\states\LoadingState.cpp" />
+    <ClCompile Include="source\states\LoadState.cpp" />
+    <ClCompile Include="source\states\MainMenuState.cpp" />
+    <ClCompile Include="source\states\OptionState.cpp" />
+    <ClCompile Include="source\states\PauseMenuState.cpp" />
+    <ClCompile Include="source\states\SaveState.cpp" />
+    <ClCompile Include="source\states\ShopState.cpp" />
+    <ClCompile Include="source\states\StateManager.cpp" />
+    <ClCompile Include="source\states\TutorialState.cpp" />
+    <ClCompile Include="source\TileSystem\Layer.cpp" />
+    <ClCompile Include="source\TileSystem\Tile.cpp" />
+    <ClCompile Include="source\TileSystem\TileManager.cpp" />
+    <ClCompile Include="source\TinyXML\tinystr.cpp" />
+    <ClCompile Include="source\TinyXML\tinyxml.cpp" />
+    <ClCompile Include="source\TinyXML\tinyxmlerror.cpp" />
+    <ClCompile Include="source\TinyXML\tinyxmlparser.cpp" />
+    <ClCompile Include="source\Util\Character.cpp" />
+    <ClCompile Include="source\Util\FontManager.cpp" />
+    <ClCompile Include="source\Util\ItemManager.cpp" />
+    <ClCompile Include="source\Util\PopUpManager.cpp" />
+    <ClCompile Include="source\Util\Rect.cpp" />
+    <ClCompile Include="source\WinMain.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="source\AnimationSystem\Animation.h" />
+    <ClInclude Include="source\AnimationSystem\AnimationManager.h" />
+    <ClInclude Include="source\AnimationSystem\AnimInfo.h" />
+    <ClInclude Include="source\AnimationSystem\Frame.h" />
+    <ClInclude Include="source\Camera.h" />
+    <ClInclude Include="source\ComboSystem\Combo.h" />
+    <ClInclude Include="source\ComboSystem\ComboManager.h" />
+    <ClInclude Include="source\CSGD\CEvent.h" />
+    <ClInclude Include="source\CSGD\Create_ScreenLock_Message.h" />
+    <ClInclude Include="source\CSGD\Create_Trap_Message.h" />
+    <ClInclude Include="source\CSGD\CSGD_Direct3D.h" />
+    <ClInclude Include="source\CSGD\CSGD_DirectInput.h" />
+    <ClInclude Include="source\CSGD\CSGD_EventSystem.h" />
+    <ClInclude Include="source\CSGD\CSGD_MessageSystem.h" />
+    <ClInclude Include="source\CSGD\CSGD_TextureManager.h" />
+    <ClInclude Include="source\CSGD\CSGD_XAudio2.h" />
+    <ClInclude Include="source\CSGD\IListener.h" />
+    <ClInclude Include="source\CSGD\IMessage.h" />
+    <ClInclude Include="source\CSGD\Message.h" />
+    <ClInclude Include="source\CSGD\RemoveEntityMessage.h" />
+    <ClInclude Include="source\CSGD\SGD_Math.h" />
+    <ClInclude Include="source\CSGD\SGD_String.h" />
+    <ClInclude Include="source\CSGD\SGD_Util.h" />
+    <ClInclude Include="source\CSGD\Toggle_Camera_Message.h" />
+    <ClInclude Include="source\Game.h" />
+    <ClInclude Include="source\GameInfo.h" />
+    <ClInclude Include="source\HUD.h" />
+    <ClInclude Include="source\inputs\AudioManager.h" />
+    <ClInclude Include="source\Inputs\BaseInput.h" />
+    <ClInclude Include="source\Inputs\Controller.h" />
+    <ClInclude Include="source\Inputs\Keyboard.h" />
+    <ClInclude Include="source\Inputs\Player2Controller.h" />
+    <ClInclude Include="source\Messages\CreateMenuPopUp.h" />
+    <ClInclude Include="source\Messages\CreatePlayerMessage.h" />
+    <ClInclude Include="source\Messages\Create_Fan_Message.h" />
+    <ClInclude Include="source\Messages\Create_FireBoss_FireBall_Message.h" />
+    <ClInclude Include="source\Messages\Create_FireSpecial_Message.h" />
+    <ClInclude Include="source\Messages\Create_IceBall_Message.h" />
+    <ClInclude Include="source\Messages\Create_IceSpecial_Message.h" />
+    <ClInclude Include="source\Messages\Create_Projectile_Message.h" />
+    <ClInclude Include="source\Messages\Create_Rock_Fall_Message.h" />
+    <ClInclude Include="source\Messages\Create_Rock_Message.h" />
+    <ClInclude Include="source\Messages\Create_Wind_Tornado_Message.h" />
+    <ClInclude Include="source\Messages\Create_Wrecking_Ball_Message.h" />
+    <ClInclude Include="source\messages\DropEXPMessage.h" />
+    <ClInclude Include="source\Messages\Perform_Fireball_Special_MSG.h" />
+    <ClInclude Include="source\Messages\Perform_Shockwave_Special_MSG.h" />
+    <ClInclude Include="source\Messages\Perform_SubZero_Special_MSG.h" />
+    <ClInclude Include="source\Messages\Perform_Sweeping_Wind_MSG.h" />
+    <ClInclude Include="source\objects\Boss.h" />
+    <ClInclude Include="source\objects\EarthBoss.h" />
+    <ClInclude Include="source\objects\Boss_Fire_Special.h" />
+    <ClInclude Include="source\objects\CFireBoss.h" />
+    <ClInclude Include="source\objects\IceBoss.h" />
+    <ClInclude Include="source\objects\CWindBoss.h" />
+    <ClInclude Include="source\objects\Dummy.h" />
+    <ClInclude Include="source\Messages\Create_Enemy_Message.h" />
+    <ClInclude Include="source\Messages\Create_PopUp_Message.h" />
+    <ClInclude Include="source\objects\Enemy.h" />
+    <ClInclude Include="source\objects\Entity.h" />
+    <ClInclude Include="source\objects\EntityManager.h" />
+    <ClInclude Include="source\objects\EntityState.h" />
+    <ClInclude Include="source\objects\Fighter.h" />
+    <ClInclude Include="source\objects\Fireball.h" />
+    <ClInclude Include="source\objects\Grunt.h" />
+    <ClInclude Include="source\objects\Human.h" />
+    <ClInclude Include="source\objects\Iceball.h" />
+    <ClInclude Include="source\objects\IEntity.h" />
+    <ClInclude Include="source\objects\Player.h" />
+    <ClInclude Include="source\objects\PopUp.h" />
+    <ClInclude Include="source\objects\PopUps_Traps.h" />
+    <ClInclude Include="source\objects\PopUp_DashingPunch.h" />
+    <ClInclude Include="source\objects\PopUp_Fireball_special.h" />
+    <ClInclude Include="source\objects\PopUp_RetreatingKick.h" />
+    <ClInclude Include="source\objects\PopUp_SPGain.h" />
+    <ClInclude Include="source\objects\Projectile.h" />
+    <ClInclude Include="source\objects\Rock_Fall.h" />
+    <ClInclude Include="source\objects\Shockwave.h" />
+    <ClInclude Include="source\objects\Special.h" />
+    <ClInclude Include="source\objects\SubZero.h" />
+    <ClInclude Include="source\objects\SweepingWind.h" />
+    <ClInclude Include="source\objects\Tank.h" />
+    <ClInclude Include="source\objects\Thrower.h" />
+    <ClInclude Include="source\objects\Wrecking_Ball.h" />
+    <ClInclude Include="source\states\AudioTestState.h" />
+    <ClInclude Include="source\states\ComingSoonState.h" />
+    <ClInclude Include="source\objects\Trap.h" />
+    <ClInclude Include="source\states\CreditsState.h" />
+    <ClInclude Include="source\states\GameOverState.h" />
+    <ClInclude Include="source\states\GameplayState.h" />
+    <ClInclude Include="source\states\HomeMenuState.h" />
+    <ClInclude Include="source\states\IGameState.h" />
+    <ClInclude Include="source\states\LoadingState.h" />
+    <ClInclude Include="source\states\LoadState.h" />
+    <ClInclude Include="source\states\MainMenuState.h" />
+    <ClInclude Include="source\states\OptionState.h" />
+    <ClInclude Include="source\states\PauseMenuState.h" />
+    <ClInclude Include="source\states\SaveState.h" />
+    <ClInclude Include="source\states\ShopState.h" />
+    <ClInclude Include="source\states\StateManager.h" />
+    <ClInclude Include="source\states\TutorialState.h" />
+    <ClInclude Include="source\TileSystem\Layer.h" />
+    <ClInclude Include="source\TileSystem\Tile.h" />
+    <ClInclude Include="source\TileSystem\TileManager.h" />
+    <ClInclude Include="source\TinyXML\tinystr.h" />
+    <ClInclude Include="source\TinyXML\tinyxml.h" />
+    <ClInclude Include="source\Util\Character.h" />
+    <ClInclude Include="source\Util\D3DCOLORS.h" />
+    <ClInclude Include="source\Util\FontManager.h" />
+    <ClInclude Include="source\Util\ItemManager.h" />
+    <ClInclude Include="source\Util\PopUpManager.h" />
+    <ClInclude Include="source\Util\Rect.h" />
+    <ClInclude Include="source\Util\SLList.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TrialsOfMastery.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="resource\Graphics\menus\ToM_Splash.bmp" />
+    <Image Include="resource\Graphics\menus\ToM_Splash.png" />
+    <Image Include="ToMIcon.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

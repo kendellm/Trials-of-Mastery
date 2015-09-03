@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Animations>
+  <Filename path="player_light_punch.png" />
+  <Animation name="popup_Light_Punch" maxframes="4" islooping="false">
+    <Frame damage="0" duration="0.05" trigger="-1">
+      <AnchorPoint x="61" y="115" />
+      <SourceRect left="62" top="69" right="155" bottom="187" />
+      <CollisionRect left="-30" top="-39" right="22" bottom="-3" />
+    </Frame>
+    <Frame damage="1" duration="0.05" trigger="-1">
+      <AnchorPoint x="61" y="115" />
+      <SourceRect left="182" top="68" right="276" bottom="185" />
+      <CollisionRect left="-30" top="-38" right="22" bottom="-2" />
+      <ActiveRect left="-39" top="-25" right="-14" bottom="-10" />
+    </Frame>
+    <Frame damage="1" duration="0.15" trigger="-1">
+      <AnchorPoint x="61" y="115" />
+      <SourceRect left="320" top="68" right="413" bottom="185" />
+      <CollisionRect left="-30" top="-38" right="22" bottom="-2" />
+      <ActiveRect left="-60" top="-28" right="-20" bottom="-10" />
+    </Frame>
+    <Frame damage="1" duration="0.05" trigger="-1">
+      <AnchorPoint x="61" y="115" />
+      <SourceRect left="182" top="68" right="276" bottom="185" />
+      <CollisionRect left="-30" top="-38" right="22" bottom="-2" />
+      <ActiveRect left="-39" top="-25" right="-14" bottom="-10" />
+    </Frame>
+  </Animation>
+</Animations>

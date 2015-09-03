@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Animations>
+  <Filename path="player_walk_animation.png" />
+  <Animation name="Player_Walk" maxframes="6" islooping="true">
+    <Frame damage="0" duration="0.1250" trigger="-1">
+      <AnchorPoint x="47" y="101" />
+      <SourceRect left="6" top="8" right="103" bottom="114" />
+      <CollisionRect left="-35" top="-32" right="8" bottom="0" />
+    </Frame>
+    <Frame damage="0" duration="0.1250" trigger="-1">
+      <AnchorPoint x="44" y="103" />
+      <SourceRect left="108" top="6" right="187" bottom="107" />
+      <CollisionRect left="-35" top="-32" right="8" bottom="0" />
+    </Frame>
+    <Frame damage="0" duration="0.15" trigger="-1">
+      <AnchorPoint x="50" y="103" />
+      <SourceRect left="6" top="121" right="83" bottom="224" />
+      <CollisionRect left="-35" top="-32" right="8" bottom="0" />
+    </Frame>
+    <Frame damage="0" duration="0.1250" trigger="-1">
+      <AnchorPoint x="46" y="106" />
+      <SourceRect left="90" top="117" right="187" bottom="223" />
+      <CollisionRect left="-35" top="-33" right="8" bottom="0" />
+    </Frame>
+    <Frame damage="0" duration="0.1250" trigger="-1">
+      <AnchorPoint x="44" y="103" />
+      <SourceRect left="7" top="231" right="87" bottom="330" />
+      <CollisionRect left="-35" top="-33" right="8" bottom="0" />
+    </Frame>
+    <Frame damage="0" duration="0.1250" trigger="-1">
+      <AnchorPoint x="48" y="103" />
+      <SourceRect left="93" top="231" right="168" bottom="333" />
+      <CollisionRect left="-35" top="-32" right="8" bottom="0" />
+    </Frame>
+  </Animation>
+</Animations>

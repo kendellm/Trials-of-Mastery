@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Animations>
+  <Filename path="player_light_punch.png" />
+  <Animation name="Player_Double_Punch" maxframes="2" islooping="false">
+    <Frame damage="0" duration="0.075" trigger="Sound" data="22">
+      <AnchorPoint x="45" y="115" />
+      <SourceRect left="198" top="68" right="276" bottom="185" />
+      <CollisionRect left="-30" top="-38" right="22" bottom="-2" />
+    </Frame>
+    <Frame damage="1" duration="0.15" trigger="-1">
+      <AnchorPoint x="61" y="115" />
+      <SourceRect left="320" top="68" right="413" bottom="185" />
+      <CollisionRect left="-30" top="-38" right="22" bottom="-2" />
+      <ActiveRect left="-60" top="-28" right="-20" bottom="-10" />
+    </Frame>
+  </Animation>
+  <Animation name="Player_Double_Punch_Fail" maxframes="3" islooping="false">
+    <Frame damage="0" duration="0.200" trigger="-1">
+      <AnchorPoint x="40" y="113" />
+      <SourceRect left="200" top="68" right="278" bottom="186" />
+      <CollisionRect left="-240" top="-181" right="-240" bottom="-181" />
+    </Frame>
+    <Frame damage="0" duration="0.200" trigger="-1">
+      <AnchorPoint x="40" y="115" />
+      <SourceRect left="79" top="224" right="155" bottom="344" />
+      <CollisionRect left="-119" top="-339" right="-119" bottom="-339" />
+    </Frame>
+    <Frame damage="0" duration="0.200" trigger="-1">
+      <AnchorPoint x="40" y="114" />
+      <SourceRect left="354" top="229" right="429" bottom="348" />
+      <CollisionRect left="-394" top="-343" right="-394" bottom="-343" />
+    </Frame>
+  </Animation>
+</Animations>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Animations>
+  <Filename path="ice-boss_death_animation.png" />
+  <Animation name="IceBoss_Death_Animation" maxframes="4" islooping="false">
+    <Frame damage="0" duration="0.200" trigger="-1">
+      <AnchorPoint x="34" y="72" />
+      <SourceRect left="7" top="8" right="75" bottom="81" />
+      <CollisionRect left="-41" top="-80" right="-41" bottom="-80" />
+    </Frame>
+    <Frame damage="0" duration="0.175" trigger="-1">
+      <AnchorPoint x="44" y="71" />
+      <SourceRect left="103" top="8" right="187" bottom="80" />
+      <CollisionRect left="-147" top="-79" right="-147" bottom="-79" />
+    </Frame>
+    <Frame damage="0" duration="0.175" trigger="-1">
+      <AnchorPoint x="60" y="56" />
+      <SourceRect left="10" top="108" right="128" bottom="165" />
+      <CollisionRect left="-70" top="-164" right="-70" bottom="-164" />
+    </Frame>
+    <Frame damage="0" duration="0.250" trigger="Self Destruct">
+      <AnchorPoint x="67" y="25" />
+      <SourceRect left="8" top="192" right="142" bottom="218" />
+      <CollisionRect left="-75" top="-217" right="-75" bottom="-217" />
+    </Frame>
+  </Animation>
+</Animations>

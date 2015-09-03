@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Animations>
+  <Filename path="fire-boss_special_animation.png" />
+  <Animation name="FireBoss_Special_Animation" maxframes="10" islooping="false">
+    <Frame damage="0" duration="0.250" trigger="-1">
+      <AnchorPoint x="45" y="121" />
+      <SourceRect left="13" top="12" right="99" bottom="134" />
+      <CollisionRect left="-32" top="-22" right="30" bottom="-2" />
+    </Frame>
+    <Frame damage="0" duration="0.250" trigger="-1">
+      <AnchorPoint x="45" y="108" />
+      <SourceRect left="137" top="13" right="222" bottom="122" />
+      <CollisionRect left="-37" top="-26" right="33" bottom="-2" />
+    </Frame>
+    <Frame damage="0" duration="0.250" trigger="-1">
+      <AnchorPoint x="44" y="109" />
+      <SourceRect left="259" top="13" right="344" bottom="123" />
+      <CollisionRect left="-34" top="-22" right="34" bottom="-1" />
+    </Frame>
+    <Frame damage="0" duration="0.250" trigger="-1">
+      <AnchorPoint x="44" y="131" />
+      <SourceRect left="382" top="11" right="467" bottom="143" />
+      <CollisionRect left="-35" top="-23" right="32" bottom="1" />
+    </Frame>
+    <Frame damage="0" duration="0.250" trigger="-1">
+      <AnchorPoint x="45" y="105" />
+      <SourceRect left="13" top="182" right="100" bottom="290" />
+      <CollisionRect left="-34" top="-21" right="32" bottom="0" />
+    </Frame>
+    <Frame damage="0" duration="0.250" trigger="-1">
+      <AnchorPoint x="45" y="108" />
+      <SourceRect left="134" top="181" right="219" bottom="290" />
+      <CollisionRect left="-31" top="-24" right="28" bottom="-2" />
+    </Frame>
+    <Frame damage="0" duration="0.250" trigger="-1">
+      <AnchorPoint x="45" y="112" />
+      <SourceRect left="258" top="181" right="343" bottom="294" />
+      <CollisionRect left="-33" top="-29" right="30" bottom="-4" />
+    </Frame>
+    <Frame damage="0" duration="0.250" trigger="-1">
+      <AnchorPoint x="47" y="109" />
+      <SourceRect left="381" top="181" right="464" bottom="292" />
+      <CollisionRect left="-37" top="-22" right="31" bottom="0" />
+    </Frame>
+    <Frame damage="0" duration="0.250" trigger="-1">
+      <AnchorPoint x="46" y="107" />
+      <SourceRect left="13" top="333" right="104" bottom="442" />
+      <CollisionRect left="-36" top="-26" right="33" bottom="-1" />
+    </Frame>
+    <Frame damage="0" duration="0.250" trigger="-1">
+      <AnchorPoint x="42" y="106" />
+      <SourceRect left="137" top="334" right="220" bottom="443" />
+      <CollisionRect left="-32" top="-22" right="35" bottom="-2" />
+    </Frame>
+  </Animation>
+</Animations>

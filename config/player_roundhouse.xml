@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Animations>
+  <Filename path="player_roundhouse_kick.png" />
+  <Animation name="Player_Roundhouse" maxframes="3" islooping="false">
+    <Frame damage="0" duration="0.15" trigger="Sound" data="27">
+      <AnchorPoint x="26" y="81" />
+      <SourceRect left="5" top="5" right="69" bottom="89" />
+      <CollisionRect left="-20" top="-24" right="17" bottom="0" />
+    </Frame>
+    <Frame damage="0" duration="0.05" trigger="-1">
+      <AnchorPoint x="50" y="110" />
+      <SourceRect left="169" top="6" right="241" bottom="126" />
+      <CollisionRect left="-36" top="-26" right="9" bottom="8" />
+    </Frame>
+    <Frame damage="3" duration="0.10" trigger="-1">
+      <AnchorPoint x="72" y="114" />
+      <SourceRect left="72" top="6" right="166" bottom="124" />
+      <CollisionRect left="-27" top="-34" right="19" bottom="2" />
+      <ActiveRect left="-69" top="-40" right="-17" bottom="-22" />
+    </Frame>
+  </Animation>
+</Animations>

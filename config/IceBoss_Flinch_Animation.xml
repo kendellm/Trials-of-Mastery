@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Animations>
+  <Filename path="ice-boss_flinch_animation.png" />
+  <Animation name="IceBoss_Flinch_Animation" maxframes="1" islooping="false">
+    <Frame damage="0" duration="0.500" trigger="-1">
+      <AnchorPoint x="38" y="123" />
+      <SourceRect left="19" top="20" right="105" bottom="144" />
+      <CollisionRect left="-35" top="-27" right="38" bottom="-2" />
+    </Frame>
+  </Animation>
+</Animations>

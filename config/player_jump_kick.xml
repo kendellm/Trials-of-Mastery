@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Animations>
+  <Filename path="player_jump_kick.png" />
+  <Animation name="Player_Jump_Kick" maxframes="5" islooping="false">
+    <Frame damage="0" duration="0.05" trigger="Sound" data="26">
+      <AnchorPoint x="30" y="105" />
+      <SourceRect left="10" top="9" right="75" bottom="116" />
+      <CollisionRect left="-27" top="-41" right="19" bottom="1" />
+    </Frame>
+    <Frame damage="0" duration="0.05" trigger="-1">
+      <AnchorPoint x="46" y="110" />
+      <SourceRect left="81" top="9" right="151" bottom="120" />
+      <CollisionRect left="-27" top="-41" right="19" bottom="1" />
+    </Frame>
+    <Frame damage="2" duration="0.07500" trigger="-1">
+      <AnchorPoint x="71" y="121" />
+      <SourceRect left="156" top="10" right="236" bottom="134" />
+      <CollisionRect left="-27" top="-42" right="19" bottom="1" />
+      <ActiveRect left="-67" top="-46" right="-33" bottom="-28" />
+    </Frame>
+    <Frame damage="2" duration="0.0550" trigger="-1">
+      <AnchorPoint x="76" y="120" />
+      <SourceRect left="10" top="140" right="98" bottom="247" />
+      <CollisionRect left="-27" top="-42" right="19" bottom="1" />
+      <ActiveRect left="-67" top="-47" right="-21" bottom="-31" />
+    </Frame>
+    <Frame damage="0" duration="0.05" trigger="-1">
+      <AnchorPoint x="71" y="118" />
+      <SourceRect left="102" top="139" right="187" bottom="245" />
+      <CollisionRect left="-27" top="-42" right="19" bottom="1" />
+    </Frame>
+  </Animation>
+</Animations>

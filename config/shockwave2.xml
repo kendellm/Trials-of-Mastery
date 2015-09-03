@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Animations>
+  <Filename path="shockwave2.png" />
+  <Animation name="shockwave2" maxframes="8" islooping="false">
+    <Frame damage="10" duration="0.10" trigger="-1">
+      <AnchorPoint x="93" y="33" />
+      <SourceRect left="450" top="1" right="577" bottom="62" />
+      <CollisionRect left="-543" top="-34" right="-543" bottom="-34" />
+      <ActiveRect left="-93" top="-33" right="35" bottom="30" />
+    </Frame>
+    <Frame damage="10" duration="0.10" trigger="-1">
+      <AnchorPoint x="154" y="29" />
+      <SourceRect left="387" top="1" right="576" bottom="62" />
+      <CollisionRect left="-541" top="-30" right="-541" bottom="-30" />
+      <ActiveRect left="-153" top="-29" right="37" bottom="31" />
+    </Frame>
+    <Frame damage="10" duration="0.10" trigger="-1">
+      <AnchorPoint x="221" y="34" />
+      <SourceRect left="322" top="1" right="575" bottom="61" />
+      <CollisionRect left="-543" top="-35" right="-543" bottom="-35" />
+      <ActiveRect left="-221" top="-34" right="-156" bottom="27" />
+    </Frame>
+    <Frame damage="10" duration="0.10" trigger="-1">
+      <AnchorPoint x="282" y="33" />
+      <SourceRect left="259" top="1" right="577" bottom="60" />
+      <CollisionRect left="-541" top="-34" right="-541" bottom="-34" />
+      <ActiveRect left="-284" top="-34" right="-222" bottom="25" />
+    </Frame>
+    <Frame damage="10" duration="0.10" trigger="-1">
+      <AnchorPoint x="348" y="33" />
+      <SourceRect left="195" top="1" right="578" bottom="62" />
+      <CollisionRect left="-543" top="-34" right="-543" bottom="-34" />
+      <ActiveRect left="-349" top="-32" right="-285" bottom="26" />
+    </Frame>
+    <Frame damage="10" duration="0.15" trigger="-1">
+      <AnchorPoint x="410" y="33" />
+      <SourceRect left="133" top="1" right="577" bottom="62" />
+      <CollisionRect left="-543" top="-34" right="-543" bottom="-34" />
+      <ActiveRect left="-412" top="-33" right="-348" bottom="26" />
+    </Frame>
+    <Frame damage="10" duration="0.15" trigger="-1">
+      <AnchorPoint x="477" y="29" />
+      <SourceRect left="67" top="2" right="577" bottom="62" />
+      <CollisionRect left="-544" top="-31" right="-544" bottom="-31" />
+      <ActiveRect left="-474" top="-31" right="-412" bottom="29" />
+    </Frame>
+    <Frame damage="10" duration="0.15" trigger="-1">
+      <AnchorPoint x="541" y="31" />
+      <SourceRect left="3" top="2" right="576" bottom="60" />
+      <CollisionRect left="-544" top="-33" right="-544" bottom="-33" />
+      <ActiveRect left="-539" top="-32" right="-478" bottom="27" />
+    </Frame>
+  </Animation>
+</Animations>

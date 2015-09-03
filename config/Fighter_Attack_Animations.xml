@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Animations>
+  <Filename path="Fighter_Attack_Animations.png" />
+  <Animation name="Fighter_Knee" maxframes="6" islooping="false">
+    <Frame damage="0" duration="0.1" trigger="-1">
+      <AnchorPoint x="5" y="119" />
+      <SourceRect left="491" top="13" right="568" bottom="141" />
+      <CollisionRect left="5" top="-38" right="53" bottom="5" />
+    </Frame>
+    <Frame damage="0" duration="0.1" trigger="-1">
+      <AnchorPoint x="8" y="117" />
+      <SourceRect left="106" top="13" right="159" bottom="138" />
+      <CollisionRect left="5" top="-38" right="53" bottom="6" />
+    </Frame>
+    <Frame damage="3" duration="0.1" trigger="-1">
+      <AnchorPoint x="20" y="114" />
+      <SourceRect left="173" top="15" right="238" bottom="137" />
+      <CollisionRect left="5" top="-38" right="53" bottom="6" />
+      <ActiveRect left="-17" top="-31" right="9" bottom="-9" />
+    </Frame>
+    <Frame damage="3" duration="0.1" trigger="-1">
+      <AnchorPoint x="26" y="115" />
+      <SourceRect left="253" top="13" right="327" bottom="134" />
+      <CollisionRect left="5" top="-38" right="53" bottom="6" />
+      <ActiveRect left="-24" top="-35" right="7" bottom="-12" />
+    </Frame>
+    <Frame damage="4" duration="0.1" trigger="-1">
+      <AnchorPoint x="29" y="107" />
+      <SourceRect left="338" top="15" right="417" bottom="128" />
+      <CollisionRect left="5" top="-38" right="53" bottom="6" />
+      <ActiveRect left="-27" top="-36" right="7" bottom="-12" />
+    </Frame>
+    <Frame damage="0" duration="0.1" trigger="-1">
+      <AnchorPoint x="5" y="114" />
+      <SourceRect left="424" top="15" right="479" bottom="135" />
+      <CollisionRect left="231" top="273" right="231" bottom="274" />
+    </Frame>
+  </Animation>
+  <Animation name="Fighter_Low_Kick" maxframes="3" islooping="false">
+    <Frame damage="0" duration="0.1" trigger="-1">
+      <AnchorPoint x="38" y="74" />
+      <SourceRect left="34" top="179" right="100" bottom="265" />
+      <CollisionRect left="-16" top="-20" right="23" bottom="10" />
+    </Frame>
+    <Frame damage="4" duration="0.1" trigger="-1">
+      <AnchorPoint x="35" y="63" />
+      <SourceRect left="116" top="179" right="172" bottom="253" />
+      <CollisionRect left="-16" top="-20" right="23" bottom="10" />
+      <ActiveRect left="-37" top="-9" right="-12" bottom="8" />
+    </Frame>
+    <Frame damage="4" duration="0.1" trigger="-1">
+      <AnchorPoint x="84" y="63" />
+      <SourceRect left="194" top="187" right="323" bottom="258" />
+      <CollisionRect left="-16" top="-21" right="23" bottom="10" />
+      <ActiveRect left="-81" top="-6" right="-13" bottom="9" />
+    </Frame>
+  </Animation>
+  <Animation name="Fighter_Punch_L" maxframes="6" islooping="false">
+    <Frame damage="0" duration="0.050" trigger="-1">
+      <AnchorPoint x="38" y="120" />
+      <SourceRect left="33" top="306" right="95" bottom="430" />
+      <CollisionRect left="-22" top="-35" right="16" bottom="1" />
+    </Frame>
+    <Frame damage="0" duration="0.050" trigger="-1">
+      <AnchorPoint x="42" y="121" />
+      <SourceRect left="107" top="306" right="173" bottom="432" />
+      <CollisionRect left="-22" top="-35" right="16" bottom="1" />
+    </Frame>
+    <Frame damage="0" duration="0.050" trigger="-1">
+      <AnchorPoint x="47" y="121" />
+      <SourceRect left="186" top="306" right="258" bottom="433" />
+      <CollisionRect left="-22" top="-35" right="16" bottom="1" />
+    </Frame>
+    <Frame damage="3" duration="0.075" trigger="-1">
+      <AnchorPoint x="59" y="120" />
+      <SourceRect left="280" top="307" right="363" bottom="432" />
+      <CollisionRect left="-22" top="-35" right="16" bottom="1" />
+      <ActiveRect left="-55" top="-25" right="-19" bottom="-9" />
+    </Frame>
+    <Frame damage="4" duration="0.100" trigger="-1">
+      <AnchorPoint x="64" y="120" />
+      <SourceRect left="377" top="309" right="465" bottom="433" />
+      <CollisionRect left="-22" top="-35" right="16" bottom="1" />
+      <ActiveRect left="-62" top="-25" right="-20" bottom="-8" />
+    </Frame>
+    <Frame damage="0" duration="0.050" trigger="-1">
+      <AnchorPoint x="42" y="121" />
+      <SourceRect left="107" top="306" right="173" bottom="432" />
+      <CollisionRect left="-22" top="-35" right="16" bottom="1" />
+    </Frame>
+  </Animation>
+  <Animation name="Fighter_Punch_M" maxframes="5" islooping="false">
+    <Frame damage="0" duration="0.1" trigger="-1">
+      <AnchorPoint x="33" y="119" />
+      <SourceRect left="44" top="469" right="101" bottom="592" />
+      <CollisionRect left="-25" top="-39" right="18" bottom="2" />
+    </Frame>
+    <Frame damage="0" duration="0.1" trigger="-1">
+      <AnchorPoint x="33" y="122" />
+      <SourceRect left="198" top="469" right="271" bottom="594" />
+      <CollisionRect left="-25" top="-39" right="18" bottom="2" />
+    </Frame>
+    <Frame damage="0" duration="0.1" trigger="-1">
+      <AnchorPoint x="31" y="118" />
+      <SourceRect left="121" top="471" right="179" bottom="592" />
+      <CollisionRect left="-25" top="-39" right="18" bottom="2" />
+    </Frame>
+    <Frame damage="4" duration="0.1" trigger="-1">
+      <AnchorPoint x="44" y="116" />
+      <SourceRect left="293" top="471" right="363" bottom="590" />
+      <CollisionRect left="-25" top="-39" right="18" bottom="2" />
+      <ActiveRect left="-43" top="-27" right="-23" bottom="-9" />
+    </Frame>
+    <Frame damage="5" duration="0.1" trigger="-1">
+      <AnchorPoint x="72" y="114" />
+      <SourceRect left="382" top="469" right="481" bottom="586" />
+      <CollisionRect left="-25" top="-39" right="18" bottom="2" />
+      <ActiveRect left="-70" top="-30" right="-24" bottom="-13" />
+    </Frame>
+  </Animation>
+</Animations>

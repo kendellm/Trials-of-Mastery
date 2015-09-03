@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Animations>
+  <Filename path="Ranged_Sprites.png" />
+  <Animation name="Thrower_Idle" maxframes="4" islooping="true">
+    <Frame damage="0" duration="0.15" trigger="-1">
+      <AnchorPoint x="20" y="100" />
+      <SourceRect left="15" top="10" right="54" bottom="118" />
+      <CollisionRect left="-20" top="-19" right="23" bottom="8" />
+    </Frame>
+    <Frame damage="0" duration="0.15" trigger="-1">
+      <AnchorPoint x="20" y="100" />
+      <SourceRect left="115" top="10" right="158" bottom="118" />
+      <CollisionRect left="-20" top="-19" right="23" bottom="8" />
+    </Frame>
+    <Frame damage="0" duration="0.15" trigger="-1">
+      <AnchorPoint x="20" y="100" />
+      <SourceRect left="212" top="10" right="252" bottom="118" />
+      <CollisionRect left="-20" top="-19" right="23" bottom="8" />
+    </Frame>
+    <Frame damage="0" duration="0.15" trigger="-1">
+      <AnchorPoint x="20" y="100" />
+      <SourceRect left="308" top="14" right="351" bottom="118" />
+      <CollisionRect left="-20" top="-23" right="23" bottom="4" />
+    </Frame>
+  </Animation>
+  <Animation name="Thrower_Attack" maxframes="8" islooping="false">
+    <Frame damage="0" duration="0.15" trigger="-1">
+      <AnchorPoint x="31" y="100" />
+      <SourceRect left="12" top="300" right="60" bottom="409" />
+      <CollisionRect left="-31" top="-16" right="17" bottom="9" />
+    </Frame>
+    <Frame damage="0" duration="0.15" trigger="-1">
+      <AnchorPoint x="36" y="100" />
+      <SourceRect left="97" top="300" right="162" bottom="405" />
+      <CollisionRect left="-36" top="-16" right="29" bottom="9" />
+    </Frame>
+    <Frame damage="0" duration="0.15" trigger="-1">
+      <AnchorPoint x="47" y="100" />
+      <SourceRect left="351" top="300" right="431" bottom="408" />
+      <CollisionRect left="-39" top="-16" right="29" bottom="9" />
+    </Frame>
+    <Frame damage="0" duration="0.0001" trigger="Projectile">
+      <AnchorPoint x="62" y="100" />
+      <SourceRect left="473" top="300" right="565" bottom="404" />
+      <CollisionRect left="-40" top="-16" right="29" bottom="9" />
+    </Frame>
+    <Frame damage="0" duration="0.1999" trigger="-1">
+      <AnchorPoint x="62" y="100" />
+      <SourceRect left="473" top="300" right="573" bottom="409" />
+      <CollisionRect left="-40" top="-16" right="29" bottom="9" />
+    </Frame>
+    <Frame damage="0" duration="0.15" trigger="-1">
+      <AnchorPoint x="47" y="100" />
+      <SourceRect left="351" top="300" right="431" bottom="408" />
+      <CollisionRect left="-39" top="-16" right="29" bottom="9" />
+    </Frame>
+    <Frame damage="0" duration="0.15" trigger="-1">
+      <AnchorPoint x="41" y="100" />
+      <SourceRect left="229" top="300" right="282" bottom="413" />
+      <CollisionRect left="-36" top="-16" right="10" bottom="9" />
+    </Frame>
+    <Frame damage="0" duration="0.15" trigger="-1">
+      <AnchorPoint x="31" y="100" />
+      <SourceRect left="12" top="300" right="60" bottom="409" />
+      <CollisionRect left="-31" top="-16" right="17" bottom="9" />
+    </Frame>
+  </Animation>
+  <Animation name="Thrower_Dead" maxframes="5" islooping="false">
+    <Frame damage="0" duration="0.100" trigger="-1">
+      <AnchorPoint x="20" y="89" />
+      <SourceRect left="16" top="148" right="59" bottom="248" />
+      <CollisionRect left="0" top="0" right="0" bottom="0" />
+    </Frame>
+    <Frame damage="0" duration="0.200" trigger="-1">
+      <AnchorPoint x="43" y="59" />
+      <SourceRect left="90" top="174" right="149" bottom="246" />
+      <CollisionRect left="0" top="0" right="0" bottom="0" />
+    </Frame>
+    <Frame damage="0" duration="0.100" trigger="-1">
+      <AnchorPoint x="68" y="55" />
+      <SourceRect left="180" top="180" right="266" bottom="249" />
+      <CollisionRect left="0" top="0" right="0" bottom="0" />
+    </Frame>
+    <Frame damage="0" duration="0.100" trigger="-1">
+      <AnchorPoint x="90" y="40" />
+      <SourceRect left="312" top="186" right="420" bottom="239" />
+      <CollisionRect left="0" top="0" right="0" bottom="0" />
+    </Frame>
+    <Frame damage="0" duration="0.500" trigger="Self Destruct">
+      <AnchorPoint x="99" y="10" />
+      <SourceRect left="465" top="216" right="584" bottom="242" />
+      <CollisionRect left="0" top="2" right="0" bottom="2" />
+    </Frame>
+  </Animation>
+</Animations>

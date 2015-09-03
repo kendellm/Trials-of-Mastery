@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Animations>
+  <Filename path="player_high_kick.png" />
+  <Animation name="Player_High_Kick" maxframes="4" islooping="false">
+    <Frame damage="0" duration="0.05" trigger="Sound" data="26">
+      <AnchorPoint x="33" y="105" />
+      <SourceRect left="23" top="24" right="95" bottom="129" />
+      <CollisionRect left="-11" top="-40" right="34" bottom="-2" />
+    </Frame>
+    <Frame damage="0" duration="0.10" trigger="-1">
+      <AnchorPoint x="25" y="112" />
+      <SourceRect left="25" top="146" right="90" bottom="258" />
+      <CollisionRect left="-9" top="-41" right="35" bottom="-2" />
+    </Frame>
+    <Frame damage="3" duration="0.1250" trigger="-1">
+      <AnchorPoint x="26" y="129" />
+      <SourceRect left="24" top="274" right="99" bottom="404" />
+      <CollisionRect left="-7" top="-43" right="39" bottom="-2" />
+      <ActiveRect left="-24" top="-45" right="8" bottom="-30" />
+    </Frame>
+    <Frame damage="0" duration="0.10" trigger="-1">
+      <AnchorPoint x="25" y="112" />
+      <SourceRect left="25" top="146" right="90" bottom="258" />
+      <CollisionRect left="-9" top="-41" right="35" bottom="-2" />
+    </Frame>
+  </Animation>
+</Animations>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Animations>
+  <Filename path="Grunt_Flinch.png" />
+  <Animation name="Grunt_Flinch_Animation" maxframes="1" islooping="false">
+    <Frame damage="0" duration="0.500" trigger="-1">
+      <AnchorPoint x="42" y="116" />
+      <SourceRect left="3" top="1" right="75" bottom="120" />
+      <CollisionRect left="-24" top="-42" right="23" bottom="-4" />
+    </Frame>
+  </Animation>
+    <Animation name="Grunt_Frozen_Animation" maxframes="1" islooping="false">
+    <Frame damage="0" duration="3.000" trigger="-1">
+      <AnchorPoint x="42" y="116" />
+      <SourceRect left="3" top="1" right="75" bottom="120" />
+      <CollisionRect left="-24" top="-42" right="23" bottom="-4" />
+    </Frame>
+  </Animation>
+</Animations>

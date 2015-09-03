@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Animations>
+  <Filename path="Grunt_Walk_Animation.png" />
+  <Animation name="Grunt_Walk_Animation" maxframes="6" islooping="true">
+    <Frame damage="0" duration="0.25" trigger="-1">
+      <AnchorPoint x="36" y="115" />
+      <SourceRect left="1" top="1" right="88" bottom="120" />
+      <CollisionRect left="-26" top="-39" right="22" bottom="1" />
+    </Frame>
+    <Frame damage="0" duration="0.25" trigger="-1">
+      <AnchorPoint x="39" y="116" />
+      <SourceRect left="77" top="2" right="141" bottom="127" />
+      <CollisionRect left="-26" top="-38" right="22" bottom="0" />
+    </Frame>
+    <Frame damage="0" duration="0.25" trigger="-1">
+      <AnchorPoint x="38" y="117" />
+      <SourceRect left="164" top="1" right="229" bottom="118" />
+      <CollisionRect left="-26" top="-40" right="22" bottom="0" />
+    </Frame>
+    <Frame damage="0" duration="0.25" trigger="-1">
+      <AnchorPoint x="37" y="117" />
+      <SourceRect left="248" top="0" right="310" bottom="178" />
+      <CollisionRect left="-26" top="-40" right="22" bottom="0" />
+    </Frame>
+    <Frame damage="0" duration="0.25" trigger="-1">
+      <AnchorPoint x="36" y="115" />
+      <SourceRect left="326" top="0" right="387" bottom="171" />
+      <CollisionRect left="-26" top="-40" right="22" bottom="0" />
+    </Frame>
+    <Frame damage="0" duration="0.25" trigger="-1">
+      <AnchorPoint x="37" y="114" />
+      <SourceRect left="420" top="1" right="487" bottom="116" />
+      <CollisionRect left="-26" top="-39" right="22" bottom="1" />
+    </Frame>
+  </Animation>
+</Animations>

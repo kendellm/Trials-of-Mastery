@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Animations>
+  <Filename path="wind-boss_special_animation.png" />
+  <Animation name="WindBoss_Special_Animation" maxframes="8" islooping="false">
+    <Frame damage="0" duration="0.200" trigger="-1">
+      <AnchorPoint x="40" y="97" />
+      <SourceRect left="124" top="275" right="199" bottom="373" />
+      <CollisionRect left="-34" top="-15" right="32" bottom="-1" />
+    </Frame>
+    <Frame damage="0" duration="0.200" trigger="-1">
+      <AnchorPoint x="38" y="103" />
+      <SourceRect left="10" top="141" right="86" bottom="246" />
+      <CollisionRect left="-34" top="-18" right="32" bottom="-1" />
+    </Frame>
+    <Frame damage="0" duration="0.200" trigger="-1">
+      <AnchorPoint x="44" y="107" />
+      <SourceRect left="114" top="138" right="205" bottom="246" />
+      <CollisionRect left="-35" top="-21" right="32" bottom="-3" />
+    </Frame>
+    <Frame damage="0" duration="0.200" trigger="-1">
+      <AnchorPoint x="39" y="101" />
+      <SourceRect left="10" top="8" right="96" bottom="110" />
+      <CollisionRect left="-31" top="-14" right="32" bottom="-2" />
+    </Frame>
+    <Frame damage="0" duration="0.175" trigger="-1">
+      <AnchorPoint x="43" y="94" />
+      <SourceRect left="9" top="402" right="98" bottom="497" />
+      <CollisionRect left="-39" top="-12" right="31" bottom="-2" />
+    </Frame>
+    <Frame damage="0" duration="0.150" trigger="Fan Throw">
+      <AnchorPoint x="40" y="91" />
+      <SourceRect left="10" top="274" right="95" bottom="366" />
+      <CollisionRect left="-32" top="-17" right="32" bottom="-1" />
+    </Frame>
+    <Frame damage="0" duration="0.175" trigger="-1">
+      <AnchorPoint x="46" y="85" />
+      <SourceRect left="127" top="401" right="217" bottom="488" />
+      <CollisionRect left="-34" top="-13" right="39" bottom="-2" />
+    </Frame>
+    <Frame damage="0" duration="0.150" trigger="-1">
+      <AnchorPoint x="46" y="86" />
+      <SourceRect left="125" top="9" right="220" bottom="96" />
+      <CollisionRect left="-26" top="-18" right="36" bottom="-3" />
+    </Frame>
+  </Animation>
+</Animations>

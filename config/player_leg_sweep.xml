@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Animations>
+  <Filename path="player_leg_sweep.png" />
+  <Animation name="Player_Leg_Sweep" maxframes="6" islooping="false">
+    <Frame damage="0" duration="0.10" trigger="Sound" data="28">
+      <AnchorPoint x="57" y="68" />
+      <SourceRect left="69" top="2" right="132" bottom="78" />
+      <CollisionRect left="-40" top="-19" right="4" bottom="8" />
+      <ActiveRect left="-59" top="3" right="14" bottom="18" />
+    </Frame>
+    <Frame damage="4" duration="0.10" trigger="-1">
+      <AnchorPoint x="103" y="72" />
+      <SourceRect left="134" top="3" right="248" bottom="84" />
+      <CollisionRect left="-41" top="-20" right="4" bottom="7" />
+      <ActiveRect left="-100" top="-9" right="-36" bottom="7" />
+    </Frame>
+    <Frame damage="5" duration="0.10" trigger="-1">
+      <AnchorPoint x="119" y="76" />
+      <SourceRect left="2" top="86" right="130" bottom="169" />
+      <CollisionRect left="-57" top="-28" right="-2" bottom="4" />
+      <ActiveRect left="-117" top="-12" right="-55" bottom="4" />
+    </Frame>
+    <Frame damage="5" duration="0.10" trigger="-1">
+      <AnchorPoint x="69" y="69" />
+      <SourceRect left="133" top="85" right="212" bottom="158" />
+      <CollisionRect left="-59" top="-29" right="-8" bottom="2" />
+      <ActiveRect left="-66" top="-42" right="8" bottom="-28" />
+    </Frame>
+    <Frame damage="5" duration="0.10" trigger="-1">
+      <AnchorPoint x="12" y="79" />
+      <SourceRect left="2" top="170" right="130" bottom="253" />
+      <CollisionRect left="9" top="-30" right="58" bottom="2" />
+      <ActiveRect left="57" top="-21" right="115" bottom="1" />
+    </Frame>
+    <Frame damage="0" duration="0.10" trigger="-1">
+      <AnchorPoint x="36" y="77" />
+      <SourceRect left="2" top="1" right="67" bottom="77" />
+      <CollisionRect left="-24" top="-35" right="20" bottom="-4" />
+    </Frame>
+  </Animation>
+</Animations>

@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Animations>
+  <Filename path="FreezeBall.png" />
+  <Animation name="Ice_Ball" maxframes="3" islooping="true">
+    <Frame damage="20" duration="0.1" trigger="-1">
+      <AnchorPoint x="28" y="60" />
+      <SourceRect left="206" top="10" right="262" bottom="70" />
+      <CollisionRect left="-234" top="-70" right="-234" bottom="-70" />
+      <ActiveRect left="-23" top="15" right="25" bottom="41" />
+    </Frame>
+    <Frame damage="20" duration="0.1" trigger="-1">
+      <AnchorPoint x="27" y="60" />
+      <SourceRect left="371" top="10" right="428" bottom="69" />
+      <CollisionRect left="-398" top="-70" right="-398" bottom="-70" />
+      <ActiveRect left="-27" top="7" right="27" bottom="31" />
+    </Frame>
+    <Frame damage="20" duration="0.1" trigger="-1">
+      <AnchorPoint x="28" y="60" />
+      <SourceRect left="284" top="10" right="341" bottom="70" />
+      <CollisionRect left="-312" top="-70" right="-312" bottom="-70" />
+      <ActiveRect left="-24" top="13" right="24" bottom="36" />
+    </Frame>
+  </Animation>
+  <Animation name="Ice_Ball_Spawn" maxframes="3" islooping="false">
+    <Frame damage="0" duration="0.1" trigger="-1">
+      <AnchorPoint x="11" y="13" />
+      <SourceRect left="9" top="10" right="33" bottom="32" />
+      <CollisionRect left="-20" top="-23" right="-20" bottom="-23" />
+    </Frame>
+    <Frame damage="0" duration="0.1" trigger="Create IceBall Projectile">
+      <AnchorPoint x="17" y="16" />
+      <SourceRect left="60" top="11" right="94" bottom="43" />
+      <CollisionRect left="-77" top="-27" right="-77" bottom="-27" />
+    </Frame>
+    <Frame damage="0" duration="0.01" trigger="Self Destruct">
+      <AnchorPoint x="17" y="16" />
+      <SourceRect left="60" top="11" right="94" bottom="43" />
+      <CollisionRect left="-77" top="-27" right="-77" bottom="-27" />
+    </Frame>
+  </Animation>
+</Animations>

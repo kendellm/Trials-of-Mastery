@@ -1,0 +1,487 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Map>
+  <Dimensions Map_count="330" Map_collums="55" tile_width="64" tile_height="64" T_Set_count="32" T_Set_collums="8" file_path="dojo temp.png" />
+  <Tiles>
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="22" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+  </Tiles>
+  <Layers colide_count="114" trap_count="0" spawn_count="6" CP_count="1" SL_count="2" Message_count="3" />
+  <Coliders>
+    <Colide col="0" row="0" />
+    <Colide col="1" row="0" />
+    <Colide col="2" row="0" />
+    <Colide col="3" row="0" />
+    <Colide col="4" row="0" />
+    <Colide col="5" row="0" />
+    <Colide col="6" row="0" />
+    <Colide col="7" row="0" />
+    <Colide col="8" row="0" />
+    <Colide col="9" row="0" />
+    <Colide col="10" row="0" />
+    <Colide col="11" row="0" />
+    <Colide col="12" row="0" />
+    <Colide col="13" row="0" />
+    <Colide col="14" row="0" />
+    <Colide col="15" row="0" />
+    <Colide col="16" row="0" />
+    <Colide col="17" row="0" />
+    <Colide col="18" row="0" />
+    <Colide col="19" row="0" />
+    <Colide col="20" row="0" />
+    <Colide col="21" row="0" />
+    <Colide col="22" row="0" />
+    <Colide col="23" row="0" />
+    <Colide col="24" row="0" />
+    <Colide col="25" row="0" />
+    <Colide col="26" row="0" />
+    <Colide col="27" row="0" />
+    <Colide col="28" row="0" />
+    <Colide col="29" row="0" />
+    <Colide col="30" row="0" />
+    <Colide col="31" row="0" />
+    <Colide col="32" row="0" />
+    <Colide col="33" row="0" />
+    <Colide col="34" row="0" />
+    <Colide col="35" row="0" />
+    <Colide col="36" row="0" />
+    <Colide col="37" row="0" />
+    <Colide col="38" row="0" />
+    <Colide col="39" row="0" />
+    <Colide col="40" row="0" />
+    <Colide col="41" row="0" />
+    <Colide col="42" row="0" />
+    <Colide col="43" row="0" />
+    <Colide col="44" row="0" />
+    <Colide col="45" row="0" />
+    <Colide col="46" row="0" />
+    <Colide col="47" row="0" />
+    <Colide col="48" row="0" />
+    <Colide col="49" row="0" />
+    <Colide col="50" row="0" />
+    <Colide col="51" row="0" />
+    <Colide col="52" row="0" />
+    <Colide col="53" row="0" />
+    <Colide col="54" row="0" />
+    <Colide col="0" row="1" />
+    <Colide col="0" row="2" />
+    <Colide col="0" row="3" />
+    <Colide col="0" row="4" />
+    <Colide col="0" row="5" />
+    <Colide col="1" row="5" />
+    <Colide col="2" row="5" />
+    <Colide col="3" row="5" />
+    <Colide col="4" row="5" />
+    <Colide col="5" row="5" />
+    <Colide col="6" row="5" />
+    <Colide col="7" row="5" />
+    <Colide col="8" row="5" />
+    <Colide col="9" row="5" />
+    <Colide col="10" row="5" />
+    <Colide col="11" row="5" />
+    <Colide col="12" row="5" />
+    <Colide col="13" row="5" />
+    <Colide col="14" row="5" />
+    <Colide col="15" row="5" />
+    <Colide col="16" row="5" />
+    <Colide col="17" row="5" />
+    <Colide col="18" row="5" />
+    <Colide col="19" row="5" />
+    <Colide col="20" row="5" />
+    <Colide col="21" row="5" />
+    <Colide col="22" row="5" />
+    <Colide col="23" row="5" />
+    <Colide col="24" row="5" />
+    <Colide col="25" row="5" />
+    <Colide col="26" row="5" />
+    <Colide col="27" row="5" />
+    <Colide col="28" row="5" />
+    <Colide col="29" row="5" />
+    <Colide col="30" row="5" />
+    <Colide col="31" row="5" />
+    <Colide col="32" row="5" />
+    <Colide col="33" row="5" />
+    <Colide col="34" row="5" />
+    <Colide col="35" row="5" />
+    <Colide col="36" row="5" />
+    <Colide col="37" row="5" />
+    <Colide col="38" row="5" />
+    <Colide col="39" row="5" />
+    <Colide col="40" row="5" />
+    <Colide col="41" row="5" />
+    <Colide col="42" row="5" />
+    <Colide col="43" row="5" />
+    <Colide col="44" row="5" />
+    <Colide col="45" row="5" />
+    <Colide col="46" row="5" />
+    <Colide col="47" row="5" />
+    <Colide col="48" row="5" />
+    <Colide col="49" row="5" />
+    <Colide col="50" row="5" />
+    <Colide col="51" row="5" />
+    <Colide col="52" row="5" />
+    <Colide col="53" row="5" />
+    <Colide col="54" row="5" />
+  </Coliders>
+  <Traps />
+  <Spawners>
+    <Spawn col="7" row="2" type="4" />
+    <Spawn col="14" row="2" type="1" />
+    <Spawn col="22" row="2" type="1" />
+    <Spawn col="30" row="2" type="0" />
+    <Spawn col="33" row="2" type="3" />
+    <Spawn col="36" row="2" type="5" />
+  </Spawners>
+  <Checkpoints>
+    <Checkpoint col="1" row="2" />
+  </Checkpoints>
+  <Screen_Locks>
+    <Lock col="44" row="2" wave_count="1">
+      <Wave size="3">
+        <Member type="0" />
+        <Member type="3" />
+        <Member type="5" />
+      </Wave>
+    </Lock>
+    <Lock col="50" row="2" wave_count="1">
+      <Wave size="4">
+        <Member type="0" />
+        <Member type="0" />
+        <Member type="3" />
+        <Member type="5" />
+      </Wave>
+    </Lock>
+  </Screen_Locks>
+  <Messages>
+    <Message col="9" row="2" type="0" />
+    <Message col="17" row="2" type="1" />
+    <Message col="25" row="2" type="2" />
+  </Messages>
+</Map>

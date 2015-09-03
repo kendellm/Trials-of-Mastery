@@ -1,0 +1,383 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Map>
+  <Dimensions Map_count="210" Map_collums="35" tile_width="64" tile_height="64" T_Set_count="32" T_Set_collums="8" file_path="Grass_Land.png" />
+  <Tiles>
+    <Tile ID="1" />
+    <Tile ID="3" />
+    <Tile ID="3" />
+    <Tile ID="3" />
+    <Tile ID="3" />
+    <Tile ID="3" />
+    <Tile ID="3" />
+    <Tile ID="3" />
+    <Tile ID="3" />
+    <Tile ID="3" />
+    <Tile ID="3" />
+    <Tile ID="3" />
+    <Tile ID="3" />
+    <Tile ID="3" />
+    <Tile ID="3" />
+    <Tile ID="3" />
+    <Tile ID="3" />
+    <Tile ID="3" />
+    <Tile ID="3" />
+    <Tile ID="3" />
+    <Tile ID="3" />
+    <Tile ID="3" />
+    <Tile ID="3" />
+    <Tile ID="3" />
+    <Tile ID="3" />
+    <Tile ID="3" />
+    <Tile ID="3" />
+    <Tile ID="3" />
+    <Tile ID="3" />
+    <Tile ID="3" />
+    <Tile ID="3" />
+    <Tile ID="3" />
+    <Tile ID="3" />
+    <Tile ID="3" />
+    <Tile ID="3" />
+    <Tile ID="11" />
+    <Tile ID="27" />
+    <Tile ID="21" />
+    <Tile ID="27" />
+    <Tile ID="27" />
+    <Tile ID="27" />
+    <Tile ID="20" />
+    <Tile ID="27" />
+    <Tile ID="27" />
+    <Tile ID="27" />
+    <Tile ID="28" />
+    <Tile ID="27" />
+    <Tile ID="27" />
+    <Tile ID="5" />
+    <Tile ID="27" />
+    <Tile ID="12" />
+    <Tile ID="27" />
+    <Tile ID="22" />
+    <Tile ID="27" />
+    <Tile ID="15" />
+    <Tile ID="28" />
+    <Tile ID="27" />
+    <Tile ID="20" />
+    <Tile ID="27" />
+    <Tile ID="23" />
+    <Tile ID="27" />
+    <Tile ID="28" />
+    <Tile ID="15" />
+    <Tile ID="23" />
+    <Tile ID="13" />
+    <Tile ID="7" />
+    <Tile ID="27" />
+    <Tile ID="28" />
+    <Tile ID="27" />
+    <Tile ID="14" />
+    <Tile ID="20" />
+    <Tile ID="27" />
+    <Tile ID="5" />
+    <Tile ID="28" />
+    <Tile ID="20" />
+    <Tile ID="12" />
+    <Tile ID="12" />
+    <Tile ID="27" />
+    <Tile ID="27" />
+    <Tile ID="27" />
+    <Tile ID="27" />
+    <Tile ID="27" />
+    <Tile ID="27" />
+    <Tile ID="27" />
+    <Tile ID="28" />
+    <Tile ID="28" />
+    <Tile ID="28" />
+    <Tile ID="0" />
+    <Tile ID="27" />
+    <Tile ID="27" />
+    <Tile ID="12" />
+    <Tile ID="27" />
+    <Tile ID="27" />
+    <Tile ID="29" />
+    <Tile ID="27" />
+    <Tile ID="27" />
+    <Tile ID="27" />
+    <Tile ID="20" />
+    <Tile ID="5" />
+    <Tile ID="28" />
+    <Tile ID="27" />
+    <Tile ID="12" />
+    <Tile ID="28" />
+    <Tile ID="13" />
+    <Tile ID="27" />
+    <Tile ID="22" />
+    <Tile ID="27" />
+    <Tile ID="28" />
+    <Tile ID="27" />
+    <Tile ID="28" />
+    <Tile ID="27" />
+    <Tile ID="15" />
+    <Tile ID="28" />
+    <Tile ID="20" />
+    <Tile ID="12" />
+    <Tile ID="5" />
+    <Tile ID="27" />
+    <Tile ID="27" />
+    <Tile ID="28" />
+    <Tile ID="28" />
+    <Tile ID="27" />
+    <Tile ID="27" />
+    <Tile ID="15" />
+    <Tile ID="27" />
+    <Tile ID="13" />
+    <Tile ID="27" />
+    <Tile ID="12" />
+    <Tile ID="27" />
+    <Tile ID="28" />
+    <Tile ID="21" />
+    <Tile ID="27" />
+    <Tile ID="27" />
+    <Tile ID="28" />
+    <Tile ID="27" />
+    <Tile ID="28" />
+    <Tile ID="4" />
+    <Tile ID="28" />
+    <Tile ID="4" />
+    <Tile ID="4" />
+    <Tile ID="28" />
+    <Tile ID="20" />
+    <Tile ID="28" />
+    <Tile ID="27" />
+    <Tile ID="6" />
+    <Tile ID="27" />
+    <Tile ID="15" />
+    <Tile ID="27" />
+    <Tile ID="27" />
+    <Tile ID="27" />
+    <Tile ID="27" />
+    <Tile ID="27" />
+    <Tile ID="23" />
+    <Tile ID="27" />
+    <Tile ID="27" />
+    <Tile ID="27" />
+    <Tile ID="12" />
+    <Tile ID="27" />
+    <Tile ID="28" />
+    <Tile ID="27" />
+    <Tile ID="20" />
+    <Tile ID="27" />
+    <Tile ID="15" />
+    <Tile ID="27" />
+    <Tile ID="27" />
+    <Tile ID="5" />
+    <Tile ID="28" />
+    <Tile ID="14" />
+    <Tile ID="27" />
+    <Tile ID="14" />
+    <Tile ID="13" />
+    <Tile ID="20" />
+    <Tile ID="20" />
+    <Tile ID="12" />
+    <Tile ID="28" />
+    <Tile ID="15" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+    <Tile ID="-1" />
+  </Tiles>
+  <Layers colide_count="74" trap_count="21" spawn_count="0" CP_count="4" SL_count="6" Message_count="0" />
+  <Coliders>
+    <Colide col="0" row="0" />
+    <Colide col="1" row="0" />
+    <Colide col="2" row="0" />
+    <Colide col="3" row="0" />
+    <Colide col="4" row="0" />
+    <Colide col="5" row="0" />
+    <Colide col="6" row="0" />
+    <Colide col="7" row="0" />
+    <Colide col="8" row="0" />
+    <Colide col="9" row="0" />
+    <Colide col="10" row="0" />
+    <Colide col="11" row="0" />
+    <Colide col="12" row="0" />
+    <Colide col="13" row="0" />
+    <Colide col="14" row="0" />
+    <Colide col="15" row="0" />
+    <Colide col="16" row="0" />
+    <Colide col="17" row="0" />
+    <Colide col="18" row="0" />
+    <Colide col="19" row="0" />
+    <Colide col="20" row="0" />
+    <Colide col="21" row="0" />
+    <Colide col="22" row="0" />
+    <Colide col="23" row="0" />
+    <Colide col="24" row="0" />
+    <Colide col="25" row="0" />
+    <Colide col="26" row="0" />
+    <Colide col="27" row="0" />
+    <Colide col="28" row="0" />
+    <Colide col="29" row="0" />
+    <Colide col="30" row="0" />
+    <Colide col="31" row="0" />
+    <Colide col="32" row="0" />
+    <Colide col="33" row="0" />
+    <Colide col="34" row="0" />
+    <Colide col="0" row="1" />
+    <Colide col="0" row="2" />
+    <Colide col="0" row="3" />
+    <Colide col="0" row="4" />
+    <Colide col="0" row="5" />
+    <Colide col="1" row="5" />
+    <Colide col="2" row="5" />
+    <Colide col="3" row="5" />
+    <Colide col="4" row="5" />
+    <Colide col="5" row="5" />
+    <Colide col="6" row="5" />
+    <Colide col="7" row="5" />
+    <Colide col="8" row="5" />
+    <Colide col="9" row="5" />
+    <Colide col="10" row="5" />
+    <Colide col="11" row="5" />
+    <Colide col="12" row="5" />
+    <Colide col="13" row="5" />
+    <Colide col="14" row="5" />
+    <Colide col="15" row="5" />
+    <Colide col="16" row="5" />
+    <Colide col="17" row="5" />
+    <Colide col="18" row="5" />
+    <Colide col="19" row="5" />
+    <Colide col="20" row="5" />
+    <Colide col="21" row="5" />
+    <Colide col="22" row="5" />
+    <Colide col="23" row="5" />
+    <Colide col="24" row="5" />
+    <Colide col="25" row="5" />
+    <Colide col="26" row="5" />
+    <Colide col="27" row="5" />
+    <Colide col="28" row="5" />
+    <Colide col="29" row="5" />
+    <Colide col="30" row="5" />
+    <Colide col="31" row="5" />
+    <Colide col="32" row="5" />
+    <Colide col="33" row="5" />
+    <Colide col="34" row="5" />
+  </Coliders>
+  <Traps>
+    <Trap col="15" row="0" type="1" />
+    <Trap col="16" row="0" type="1" />
+    <Trap col="22" row="0" type="1" />
+    <Trap col="23" row="0" type="1" />
+    <Trap col="22" row="1" type="4" />
+    <Trap col="23" row="1" type="4" />
+    <Trap col="14" row="2" type="1" />
+    <Trap col="15" row="2" type="4" />
+    <Trap col="16" row="2" type="4" />
+    <Trap col="22" row="2" type="4" />
+    <Trap col="23" row="2" type="4" />
+    <Trap col="14" row="3" type="1" />
+    <Trap col="15" row="3" type="4" />
+    <Trap col="16" row="3" type="4" />
+    <Trap col="22" row="3" type="4" />
+    <Trap col="23" row="3" type="4" />
+    <Trap col="14" row="4" type="2" />
+    <Trap col="15" row="4" type="4" />
+    <Trap col="16" row="4" type="4" />
+    <Trap col="22" row="4" type="4" />
+    <Trap col="23" row="4" type="4" />
+  </Traps>
+  <Spawners />
+  <Checkpoints>
+    <Checkpoint col="1" row="2" />
+    <Checkpoint col="14" row="2" />
+    <Checkpoint col="22" row="2" />
+    <Checkpoint col="27" row="2" />
+  </Checkpoints>
+  <Screen_Locks>
+    <Lock col="9" row="2" wave_count="1">
+      <Wave size="6">
+        <Member type="0" />
+        <Member type="2" />
+        <Member type="2" />
+        <Member type="3" />
+        <Member type="5" />
+        <Member type="5" />
+      </Wave>
+    </Lock>
+    <Lock col="17" row="2" wave_count="2">
+      <Wave size="4">
+        <Member type="0" />
+        <Member type="2" />
+        <Member type="3" />
+        <Member type="5" />
+      </Wave>
+      <Wave size="6">
+        <Member type="0" />
+        <Member type="0" />
+        <Member type="2" />
+        <Member type="2" />
+        <Member type="3" />
+        <Member type="3" />
+      </Wave>
+    </Lock>
+    <Lock col="22" row="2" wave_count="2">
+      <Wave size="4">
+        <Member type="3" />
+        <Member type="3" />
+        <Member type="5" />
+        <Member type="5" />
+      </Wave>
+      <Wave size="6">
+        <Member type="5" />
+        <Member type="5" />
+        <Member type="5" />
+        <Member type="2" />
+        <Member type="2" />
+        <Member type="0" />
+      </Wave>
+    </Lock>
+    <Lock col="30" row="2" wave_count="1">
+      <Wave size="1">
+        <Member type="4" />
+      </Wave>
+    </Lock>
+    <Lock col="20" row="3" wave_count="1">
+      <Wave size="1">
+        <Member type="7" />
+      </Wave>
+    </Lock>
+    <Lock col="27" row="3" wave_count="1">
+      <Wave size="1">
+        <Member type="8" />
+      </Wave>
+    </Lock>
+  </Screen_Locks>
+  <Messages />
+</Map>

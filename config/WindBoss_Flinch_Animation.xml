@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Animations>
+  <Filename path="wind-boss_flinch_animation.png" />
+  <Animation name="WindBoss_Flinch_Animation" maxframes="1" islooping="false">
+    <Frame damage="0" duration="0.500" trigger="-1">
+      <AnchorPoint x="45" y="83" />
+      <SourceRect left="10" top="10" right="95" bottom="94" />
+      <CollisionRect left="-31" top="-12" right="37" bottom="-1" />
+    </Frame>
+  </Animation>
+</Animations>

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Animations>
+  <Filename path="player_special.png" />
+  <Animation name="Player_Special" maxframes="5" islooping="false">
+    <Frame damage="0" duration="0.075" trigger="-1">
+      <AnchorPoint x="35" y="107" />
+      <SourceRect left="20" top="20" right="90" bottom="131" />
+      <CollisionRect left="-55" top="-127" right="-55" bottom="-127" />
+    </Frame>
+    <Frame damage="0" duration="0.050" trigger="-1">
+      <AnchorPoint x="38" y="85" />
+      <SourceRect left="19" top="138" right="95" bottom="226" />
+      <CollisionRect left="-57" top="-223" right="-57" bottom="-223" />
+    </Frame>
+    <Frame damage="0" duration="0.050" trigger="-1">
+      <AnchorPoint x="43" y="76" />
+      <SourceRect left="20" top="234" right="96" bottom="312" />
+      <CollisionRect left="-63" top="-310" right="-63" bottom="-310" />
+    </Frame>
+    <Frame damage="0" duration="0.050" trigger="-1">
+      <AnchorPoint x="46" y="76" />
+      <SourceRect left="18" top="321" right="98" bottom="400" />
+      <CollisionRect left="-64" top="-397" right="-64" bottom="-397" />
+    </Frame>
+    <Frame damage="0" duration="0.050" trigger="-1">
+      <AnchorPoint x="45" y="76" />
+      <SourceRect left="19" top="408" right="97" bottom="487" />
+      <CollisionRect left="-64" top="-484" right="-64" bottom="-484" />
+    </Frame>
+  </Animation>
+</Animations>

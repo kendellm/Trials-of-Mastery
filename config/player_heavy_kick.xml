@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Animations>
+  <Filename path="player_heavy_kick.png" />
+  <Animation name="Player_Heavy_Kick" maxframes="6" islooping="false">
+    <Frame damage="0" duration="0.10" trigger="-1">
+      <AnchorPoint x="52" y="114" />
+      <SourceRect left="17" top="18" right="92" bottom="135" />
+      <CollisionRect left="-29" top="-41" right="15" bottom="0" />
+    </Frame>
+    <Frame damage="0" duration="0.10" trigger="-1">
+      <AnchorPoint x="49" y="137" />
+      <SourceRect left="104" top="18" right="170" bottom="158" />
+      <CollisionRect left="-29" top="-41" right="15" bottom="0" />
+    </Frame>
+    <Frame damage="0" duration="0" trigger="-1">
+      <AnchorPoint x="37" y="140" />
+      <SourceRect left="181" top="16" right="231" bottom="160" />
+      <CollisionRect left="-29" top="-41" right="15" bottom="0" />
+    </Frame>
+    <Frame damage="2" duration="0.10" trigger="-1">
+      <AnchorPoint x="52" y="142" />
+      <SourceRect left="17" top="170" right="81" bottom="316" />
+      <CollisionRect left="-29" top="-41" right="15" bottom="0" />
+      <ActiveRect left="-46" top="-49" right="-22" bottom="-35" />
+    </Frame>
+    <Frame damage="2" duration="0.10" trigger="-1">
+      <AnchorPoint x="85" y="107" />
+      <SourceRect left="92" top="171" right="196" bottom="280" />
+      <CollisionRect left="-29" top="-41" right="15" bottom="0" />
+      <ActiveRect left="-83" top="-26" right="-26" bottom="-8" />
+    </Frame>
+    <Frame damage="2" duration="0.10" trigger="-1">
+      <AnchorPoint x="68" y="106" />
+      <SourceRect left="18" top="326" right="106" bottom="433" />
+      <CollisionRect left="-29" top="-41" right="15" bottom="0" />
+      <ActiveRect left="-60" top="-16" right="-25" bottom="-3" />
+    </Frame>
+  </Animation>
+</Animations>

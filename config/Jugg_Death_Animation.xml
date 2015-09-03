@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Animations>
+  <Filename path="Jugg_Death_Animation.png" />
+  <Animation name="Jugg_Death_Animation" maxframes="6" islooping="false">
+    <Frame damage="0" duration="0.175" trigger="-1">
+      <AnchorPoint x="45" y="135" />
+      <SourceRect left="29" top="25" right="120" bottom="165" />
+      <CollisionRect left="0" top="0" right="0" bottom="0" />
+    </Frame>
+    <Frame damage="0" duration="0.150" trigger="-1">
+      <AnchorPoint x="46" y="144" />
+      <SourceRect left="150" top="31" right="267" bottom="181" />
+      <CollisionRect left="6" top="-4" right="6" bottom="-4" />
+    </Frame>
+    <Frame damage="0" duration="0.150" trigger="-1">
+      <AnchorPoint x="43" y="116" />
+      <SourceRect left="297" top="32" right="443" bottom="153" />
+      <CollisionRect left="21" top="0" right="21" bottom="0" />
+    </Frame>
+    <Frame damage="0" duration="0.175" trigger="-1">
+      <AnchorPoint x="16" y="107" />
+      <SourceRect left="32" top="211" right="146" bottom="323" />
+      <CollisionRect left="23" top="0" right="23" bottom="0" />
+    </Frame>
+    <Frame damage="0" duration="0.125" trigger="-1">
+      <AnchorPoint x="42" y="63" />
+      <SourceRect left="173" top="212" right="313" bottom="281" />
+      <CollisionRect left="19" top="0" right="19" bottom="0" />
+    </Frame>
+    <Frame damage="0" duration="0.500" trigger="Self Destruct">
+      <AnchorPoint x="46" y="45" />
+      <SourceRect left="31" top="352" right="176" bottom="406" />
+      <CollisionRect left="24" top="5" right="24" bottom="5" />
+    </Frame>
+  </Animation>
+</Animations>

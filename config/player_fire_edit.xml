@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Animations>
+  <Filename path="Fire_Edit.png" />
+  <Animation name="Player_Fireball" maxframes="3" islooping="false">
+    <Frame damage="0" duration="0.1" trigger="-1">
+      <AnchorPoint x="32" y="107" />
+      <SourceRect left="21" top="22" right="89" bottom="130" />
+      <CollisionRect left="-27" top="-43" right="18" bottom="-2" />
+    </Frame>
+    <Frame damage="0" duration="0.1" trigger="Projectile">
+      <AnchorPoint x="45" y="114" />
+      <SourceRect left="21" top="146" right="92" bottom="262" />
+      <CollisionRect left="602" top="103" right="604" bottom="105" />
+    </Frame>
+    <Frame damage="0" duration="0.1" trigger="-1">
+      <AnchorPoint x="70" y="116" />
+      <SourceRect left="21" top="283" right="106" bottom="401" />
+      <CollisionRect left="-27" top="-43" right="18" bottom="-2" />
+    </Frame>
+  </Animation>
+</Animations>

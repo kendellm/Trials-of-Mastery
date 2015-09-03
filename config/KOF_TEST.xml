@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Animations>
+  <Filename path="Kim Kaphwan_0094.png" />
+  <Animation name="KOF_TEST" maxframes="3" islooping="true">
+    <Frame damage="0" duration="0.40" trigger="-1">
+      <AnchorPoint x="61" y="115" />
+      <SourceRect left="17" top="119" right="104" bottom="235" />
+      <CollisionRect left="-30" top="-33" right="22" bottom="-1" />
+      <ActiveRect left="-35" top="-84" right="-17" bottom="-64" />
+    </Frame>
+    <Frame damage="0" duration="0.40" trigger="-1">
+      <AnchorPoint x="61" y="115" />
+      <SourceRect left="17" top="119" right="104" bottom="235" />
+      <CollisionRect left="-30" top="-33" right="22" bottom="-1" />
+      <ActiveRect left="-35" top="-84" right="-17" bottom="-64" />
+    </Frame>
+    <Frame damage="0" duration="0.40" trigger="-1">
+      <AnchorPoint x="61" y="115" />
+      <SourceRect left="17" top="119" right="104" bottom="235" />
+      <CollisionRect left="-30" top="-33" right="22" bottom="-1" />
+      <ActiveRect left="-35" top="-84" right="-17" bottom="-64" />
+    </Frame>
+  </Animation>
+</Animations>

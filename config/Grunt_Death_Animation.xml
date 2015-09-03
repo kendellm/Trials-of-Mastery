@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Animations>
+  <Filename path="Grunt_Death_Animation.png" />
+  <Animation name="Grunt_Death_Animation" maxframes="6" islooping="false">
+    <Frame damage="0" duration="0.175" trigger="-1">
+      <AnchorPoint x="35" y="106" />
+      <SourceRect left="31" top="32" right="111" bottom="142" />
+      <CollisionRect left="0" top="0" right="0" bottom="0" />
+    </Frame>
+    <Frame damage="0" duration="0.125" trigger="-1">
+      <AnchorPoint x="37" y="107" />
+      <SourceRect left="139" top="30" right="223" bottom="140" />
+      <CollisionRect left="0" top="0" right="0" bottom="0" />
+    </Frame>
+    <Frame damage="0" duration="0.125" trigger="-1">
+      <AnchorPoint x="53" y="94" />
+      <SourceRect left="33" top="169" right="146" bottom="257" />
+      <CollisionRect left="0" top="-10" right="0" bottom="-10" />
+    </Frame>
+    <Frame damage="0" duration="0.125" trigger="-1">
+      <AnchorPoint x="54" y="97" />
+      <SourceRect left="252" top="29" right="372" bottom="90" />
+      <CollisionRect left="-306" top="-126" right="-306" bottom="-126" />
+    </Frame>
+    <Frame damage="0" duration="0.125" trigger="-1">
+      <AnchorPoint x="51" y="77" />
+      <SourceRect left="174" top="174" right="289" bottom="253" />
+      <CollisionRect left="0" top="0" right="0" bottom="0" />
+    </Frame>
+    <Frame damage="0" duration="0.500" trigger="Self Destruct">
+      <AnchorPoint x="65" y="41" />
+      <SourceRect left="316" top="174" right="446" bottom="218" />
+      <CollisionRect left="-8" top="0" right="-8" bottom="0" />
+    </Frame>
+  </Animation>
+</Animations>
